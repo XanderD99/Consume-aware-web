@@ -15,7 +15,7 @@ header {
 	flex-direction: column;
 	justify-content: center;
 	padding: 25px;
-	color: white;
+	color: white
 }
 
 header::before {
@@ -50,6 +50,6 @@ p {
 
 .navIconBox {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+	flex-direction: row;
+	justffy-content: flex-end;
 }

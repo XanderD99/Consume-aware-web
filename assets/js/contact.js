@@ -6,7 +6,7 @@ function init() {
 };
 
 
-function alert(){
+function alertFunction(){
 
     alert("hello");
 }
