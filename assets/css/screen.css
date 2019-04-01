@@ -38,11 +38,18 @@ main {
 
 p {
     line-height: 140%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 1rem;
+    text-align: justify;
 }
 
 .footerlink {
     font-size: 2rem;
     margin: 1rem;
+}
+
+.navIconBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
