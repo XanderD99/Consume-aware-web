@@ -9,6 +9,7 @@
 
 	<!-- reset -->
 	<link rel="stylesheet" href="/assets/css/reset.css" />
+	<link rel="stylesheet" href="/assets/css/screen.css" />
 
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
@@ -54,25 +55,44 @@
 		</div>
 
 		<div id="teacherSub" class="hide row center-align">
-			<button id="intro" class="waves-effect waves-teal cyan btn-large">intro</button>
-			<button id="book" class="waves-effect waves-teal cyan btn-large">Book</button>
-			<button id="app" class="waves-effect waves-teal cyan btn-large">App</button>
-		</div>
-		<div id="introSub" class="hide row center-align">
-			<button id="part1" class="waves-effect waves-teal cyan btn-large">part1</button>
-			<button id="part2" class="waves-effect waves-teal cyan btn-large">part2</button>
-			<button id="part3" class="waves-effect waves-teal cyan btn-large">part3</button>
+			<button id="instruction" class="waves-effect waves-teal btn-large">instruction</button>
+			<button id="book" class="waves-effect waves-teal  btn-large">Book</button>
+			<button id="app" class="waves-effect waves-teal  btn-large">App</button>
+
+			<div id="bookSub" class="hide row center-align">
+				<button id="part1" class="waves-effect waves-teal  btn-large">part1</button>
+				<button id="part2" class="waves-effect waves-teal  btn-large">part2</button>
+				<button id="part3" class="waves-effect waves-teal  btn-large">part3</button>
+
+				<div id="part1Sub" class="hide row center-align">
+					<button id="chapter1" class="waves-effect waves-teal  btn-large">chapter1</button>
+					<button id="chapter2" class="waves-effect waves-teal  btn-large">chapter2</button>
+					<button id="chapter3" class="waves-effect waves-teal  btn-large">chapter3</button>
+
+					<div id="chapter1Sub" class="hide center-align">
+						<a href="">Presentation</a>
+						<a href="">E-book</a>
+						<a href="">Interactive</a>
+
+					</div>
+				</div>
+
+				<div id="part2Sub" class="hide row center-align">
+					<button id="chapter4" class="waves-effect waves-teal btn-large">chapter4</button>
+					<button id="chapter5" class="waves-effect waves-teal btn-large">chapter5</button>
+					<button id="chapter6" class="waves-effect waves-teal btn-large">chapter6</button>
+				</div>
+				<div id="part3Sub" class="hide row center-align">
+					<button id="chapter7" class="waves-effect waves-teal btn-large">chapter7</button>
+					<button id="chapter8" class="waves-effect waves-teal btn-large">chapter8</button>
+					<button id="chapter9" class="waves-effect waves-teal btn-large">chapter9</button>
+					<button id="chapter10" class="waves-effect waves-teal btn-large">chapter10</button>
+					<button id="chapter11" class="waves-effect waves-teal btn-large">chapter11</button>
+				</div>
+			</div>
 		</div>
 
-		<div id="part1Sub" class="hide row center-align">
-			<p>part 1</p>
-		</div>
-		<div id="part2Sub" class="hide row center-align">
-			<p>part 2</p>
-		</div>
-		<div id="part3Sub" class="hide row center-align">
-			<p>part 3</p>
-		</div>
+
 
 
 		<div id="modal" class="modal">
