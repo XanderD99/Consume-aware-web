@@ -51,5 +51,18 @@ p {
 .navIconBox {
     display: flex;
 	flex-direction: row;
-	justffy-content: flex-end;
+	justify-content: flex-end;
+}
+
+.list {
+margin-left: 10px;
+}
+
+.list-item {
+	padding: 5px;
+}
+
+.list-item::before {
+	content: '-';
+	margin-right: 5px;
 }
