@@ -1,0 +1,113 @@
+.logobtn {
+	width: 45px;
+	height: 45px;
+}
+
+aside {
+	background-color: #dcdcdc;
+	min-height: 100%;
+	max-height: 90vh;
+	border: 1px solid rgba(0,0,0,.1);
+	overflow-y: scroll;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#wrapper {
+	min-height: 100%;
+}
+
+header {
+	background-color: #19dcdc;
+	margin: 0;
+	height: 70px;
+	border: 1px solid rgba(0,0,0,.1);
+}
+
+header img {
+	height: 70px;
+}
+
+#changethis {
+	height: 90vh;
+	margin: 0;
+	min-height: 100%;
+	padding: 0;
+}
+
+.pdfobject-container {
+	height: 100%;
+	width: 100%;
+	padding: 10px;
+}
+.container-fluid {
+	padding: 0;
+}
+
+
+
+#navigator {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+li h3{
+	width: 100%;
+	padding: 2px;
+	background-color: #a2a2a2;
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+ul {
+	width: 100%;
+}
+
+h2 {
+	padding-top: 15px;
+}
+
+#progressbar {
+	border: 1px solid rgba(0,0,0,.1);
+	height: 15px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: auto;
+	padding-bottom: auto;
+}
+
+#progress {
+	margin-top: auto;
+	margin-bottom: auto;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 8px;
+
+}
+
+main {
+	padding: 0!important;
+	text-align: center;
+}
+
+main a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main a p {
+	margin-bottom: 0;
+}
+
+main a img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
