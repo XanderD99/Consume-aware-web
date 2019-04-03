@@ -62,7 +62,8 @@
             <p>The mobile application is an innovative tool used within the learning process, and moreover will be a useful solution for all 
                 consumers within the European Union.</p>
 
-                    <p>The mobile application will be developed on the basis of database, which include all possible identified problems 
+				<div class="row">
+                    <p class="col s8">The mobile application will be developed on the basis of database, which include all possible identified problems 
                         concerning consumers rights and their protection that they may face in their everyday life. The database will include 
                         a structured set of data concerning the possible consumer problems and solutions, taking into consideration consumer 
                         rights. The problems and solutions will be categorized according to country of origin. The identification of those 
@@ -71,8 +72,10 @@
                         will be updated on a regular basis with new issues, first of all by participating institutions in this project, and 
                         then by all institutions which will be interested in implementation of Consume-aware MOOC. Consumers who will download 
                         the app from app store will also have an opportunity to contact the consortium with problems they have (if the one will 
-                        be not resolved inside the app – it will enable genuine up-to-date knowledge)
+                        be not resolved inside the app – it will enable genuine up-to-date knowledge) 
                     </p>
+					<img src="/assets/images/consumerRights.jpg" alt="Consumer Rights image" class="col s4">
+				</div>
                     
                     <p>The mobile application will have an intuitive search engine, thanks to which it will be possible to find a particular 
                         consumer rights problem and possible solutions.
