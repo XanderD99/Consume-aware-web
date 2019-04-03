@@ -58,7 +58,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en" class="col s12 m3">
+        <a href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en" target="_blank" class="col s12 m3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/erasmus.png">
@@ -67,7 +67,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="" class="col s12 m3">
+        <a href="/project/partnership.php" class="col s12 m3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/partnership.png">
