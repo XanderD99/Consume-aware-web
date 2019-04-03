@@ -4,27 +4,24 @@
 	}
 }
 
-.logobtn {
-	width: 45px;
-	height: 45px;
-}
-
-aside {
-	background-color: #dcdcdc;
-	min-height: 100%;
-	max-height: 90vh;
-	border: 1px solid rgba(0,0,0,.1);
-	overflow-y: scroll;
-}
-
 html, body {
 	height: 100%;
 	margin: 0;
 }
 
-#wrapper {
+#mainWrapper {
+	height: 90vh;
+	margin: 0;
 	min-height: 100%;
+	padding: 0;
 }
+
+/************/
+/*			*/
+/*	HEADER	*/
+/*			*/
+/************/
+
 
 header {
 	background-color: #19dcdc;
@@ -37,23 +34,20 @@ header img {
 	height: 70px;
 }
 
-#changethis {
-	height: 90vh;
-	margin: 0;
+/************/
+/*			*/
+/*	content */
+/*	table	*/
+/*			*/
+/************/
+
+aside {
+	background-color: #dcdcdc;
 	min-height: 100%;
-	padding: 0;
+	max-height: 90vh;
+	border: 1px solid rgba(0,0,0,.1);
+	overflow-y: scroll;
 }
-
-.pdfobject-container {
-	height: 75vh;
-	width: 100%;
-	padding: 10px;
-}
-.container-fluid {
-	padding: 0;
-}
-
-
 
 #navigator {
 	text-align: center;
@@ -65,7 +59,7 @@ li h3{
 	width: 100%;
 	padding: 2px;
 	background-color: #a2a2a2;
-	font-size: 25px;
+	font-size: 1.25rem;
 	margin-bottom: 20px;
 	margin-top: 20px;
 }
@@ -97,6 +91,50 @@ h2 {
 
 }
 
+
+
+.logobtn {
+	width: 45px;
+	height: 45px;
+}
+
+em {
+	display: block;
+	font-style: italic;
+	font-size: 1.5rem;
+
+}
+
+
+#wrapper {
+	min-height: 100%;
+}
+
+
+
+
+
+.pdfobject-container {
+	height: 75vh;
+	width: 100%;
+	padding: 10px;
+}
+.container-fluid {
+	padding: 0;
+}
+
+
+/************/
+/*			*/
+/*	content */
+/*	display	*/
+/*			*/
+/************/
+
+
+
+
+
 main {
 	padding: 0!important;
 	text-align: center;
@@ -118,9 +156,3 @@ main a img {
 	margin-right: 5px;
 }
 
-em {
-	display: block;
-	font-style: italic;
-	font-size: 1.5rem;
-
-}
