@@ -25,3 +25,7 @@ function getFieldInfo(){
 
     console.log(name + " " + email + " " + subject + " " + message);
 }
+
+function clearFields(){
+
+}
