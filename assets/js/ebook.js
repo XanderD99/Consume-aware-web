@@ -1,38 +1,66 @@
 "use strict";
 
 let parts = [
-    {number: 1, title: "Insert a part title in this place"}
+    {number: 1, title: "Part 1 title"},
+    {number: 2, title: "Part 2 title"}
 ];
 
+
 let pdfs = [
-    {chapter:1, part:getPart(1), title:"Insert title here", location:"assets/pdf/A title.pdf"},
-    {chapter:2, part:getPart(1), title:"Insert title here", location:"assets/pdf/Life is good.pdf"},
-    {chapter:2, part:getPart(1), title:"Insert title here", location:"assets/pdf/opgave.pdf"},
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf"}
 ];
 
 document.addEventListener('DOMContentLoaded', init);
 
 function init(){
-    console.log(pdfs[0]);
+    generateAside();
     PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
 }
 
 function getPart(number) {
-    console.log(parts);
-    return parts.filter(part => part.number = number)[0]
+    return parts.filter(part => part.number === number)[0]
+}
+
+function getPdfs(part) {
+    let dd = pdfs.filter(pdf => pdf.part.number === part.number);
+    return dd;
 }
 
 function generateAside(){
+    let aside = document.querySelector("#list");
+    let html = "";
+    parts.forEach(part => {
+        html += getPartHtml(part);
+    });
+    aside.innerHTML = html;
 
 
 }
 
 function getPartHtml(part){
-
+    let html = "";
+    html += "<li>";
+    html += "<h2>Part "+ part.number + ": " + part.title + "</h2>";
+    html += "<ul>";
+    html += "<ul>";
+    getPdfs(part).forEach(pdf => {
+        html += getPdfHtml(pdf)
+    });
+    html += "</ul>";
+    html += "</li>";
+    return html;
 }
 
 function getPdfHtml(pdf){
-
+    let html = "";
+    html += "<li>";
+    html += "<h3>"+ pdf.chapter + ". " + pdf.title + "</h3>";
+    html += "<div><img src='assets/images/pdflogo.png' class='logobtn' alt='logobtn'><img src='assets/images/powerpoint.png' class='logobtn' alt='logobtn'></div>";
+    html += "</li>";
+    return html;
 }
 
 
