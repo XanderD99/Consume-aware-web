@@ -49,14 +49,40 @@ function getPdf(chapter) {
 }
 
 function generateAside(){
+    let part = getPartAttribute();
+    console.log(part);
     let aside = document.querySelector("#list");
     let html = "";
-    parts.forEach(part => {
+    let generatedParts = parts;
+    if(part !== null) {
+        generatedParts = parts.filter(partObj =>
+            partObj.number === part
+        );
+    }
+    console.log(generatedParts);
+    generatedParts.forEach(part => {
         html += getPartHtml(part);
     });
     aside.innerHTML = html;
 
 
+}
+
+function getPartAttribute() {
+    let url = window.location.href;
+    let attributesString = url.split("?")[1];
+    if(attributesString !== undefined) {
+        let attributes = attributesString.split("&");
+        console.log(attributes);
+        let part = attributes.filter(attribute =>
+            attribute.includes("part")
+        )[0];
+        let value = part.split("=")[1];
+        if(value !== null || value !== undefined) {
+            return parseInt(value);
+        }
+    }
+    return null;
 }
 
 function getPartHtml(part){
