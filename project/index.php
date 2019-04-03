@@ -64,7 +64,7 @@
 		<main class="container">
 			<div class="collection">
 				<a href="/project/outcomes.html" class="collection-item">Outcomes</a>
-				<a href="" class="collection-item">Dissemination</a>
+				<a href="/project/dissemination.html" class="collection-item">Dissemination</a>
 				<a href="" class="collection-item">Erasmus +</a>
 				<a href="" class="collection-item">Erasmus strategic partnership</a>
 			</div>
