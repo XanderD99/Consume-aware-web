@@ -4,6 +4,7 @@ include_once("head.php");
 ?>
 		<header class="lander">
 			<h1>Consume Aware</h1>
+			<p>Enhancing quality in innovative higher education about consumer awareness</p>
 		</header>
 		<main class="container">
 			<div class="row">
@@ -25,6 +26,10 @@ include_once("head.php");
 				<p>“Enhancing quality in innovative higher education about consumer awareness” is an Erasmus+ project, 
 				which aims at promotion of consumer rights protection and awareness.</p>
       			</div>
+			</div>
+
+			<div class="row">
+				<img src="./assets/images/ConsumerAwarenessBanner.png" alt="Consumer awareness banner" class="col s12">
 			</div>
 		</main>
 <?php
