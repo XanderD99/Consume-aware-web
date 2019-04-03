@@ -87,7 +87,6 @@ function getPartHtml(part){
     html += "<li>";
     html += "<h2>Part "+ part.number + ": " + part.title + "</h2>";
     html += "<ul>";
-    html += "<ul>";
     getPdfs(part).forEach(pdf => {
         html += getPdfHtml(pdf)
     });
