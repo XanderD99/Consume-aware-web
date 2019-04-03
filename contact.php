@@ -3,11 +3,12 @@ include_once("head.php");
 
 ?>
 		<main class="container">
-			<form action="" method="post">
+			<form action="" method="post" id="contactForm">
 				<div class="row">
 					<h5>
 						If you have any question do not hesitate to contact us.
 					</h5>
+					<p>Use this page to set up an e-mail (only works if you have an e-mail client installed, eg. Outlook) or mail us on: example@mail.com</p>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
@@ -52,6 +53,10 @@ include_once("head.php");
 				</div>
 			</form>
 		</main>
+
+		<div class="row">
+		<div class="col s12" id="contactStatus"></div>
+		</div>
 
 		<script src="/assets/js/contact.js"></script>
 <?php
