@@ -17,7 +17,22 @@ document.addEventListener('DOMContentLoaded', init);
 
 function init(){
     generateAside();
+    let buttons = document.getElementsByClassName("logobtn");
+    for(var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', setPdf, false)
+    }
+
     PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
+}
+
+function setPdf() {
+    let chapter = this.getAttribute("data-chapter");
+    let file = this.getAttribute("data-file");
+    let pdf = getPdf(chapter);
+    console.log(pdf);
+    console.log(pdf.location);
+    document.getElementById("title").innerHTML = pdf.title;
+    PDFObject.embed(pdf.location,"#pdfviewer");
 }
 
 function getPart(number) {
@@ -25,8 +40,12 @@ function getPart(number) {
 }
 
 function getPdfs(part) {
-    let dd = pdfs.filter(pdf => pdf.part.number === part.number);
-    return dd;
+    return pdfs.filter(pdf => pdf.part.number === part.number);
+
+}
+
+function getPdf(chapter) {
+    return pdfs.filter(pdf => pdf.chapter === parseInt(chapter))[0];
 }
 
 function generateAside(){
@@ -58,7 +77,7 @@ function getPdfHtml(pdf){
     let html = "";
     html += "<li>";
     html += "<h3>"+ pdf.chapter + ". " + pdf.title + "</h3>";
-    html += "<div><img src='assets/images/pdflogo.png' class='logobtn' alt='logobtn'><img src='assets/images/powerpoint.png' class='logobtn' alt='logobtn'></div>";
+    html += "<div><img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton' data-chapter='"+ pdf.chapter +"' data-file='pdf'><img src='assets/images/powerpoint.png' class='logobtn' alt='pttbutton' data-chapter='"+ pdf.chapter +"' data-file='ppt'></div>";
     html += "</li>";
     return html;
 }
