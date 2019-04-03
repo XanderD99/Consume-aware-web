@@ -1,5 +1,5 @@
 <?php
-include "utils.php";
+include "../utils.php";
 
 $hash = password_hash("test", PASSWORD_DEFAULT);
 
@@ -14,7 +14,7 @@ if(!isset($_POST['password'])){
 }
 
 //password ok!
-header("Location: /study-material/index.php");
+header("Location: /study-material/teacher.php");
 exit;
 
 ?>

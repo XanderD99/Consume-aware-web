@@ -141,18 +141,10 @@ include_once("../head.php");
       <form action="login.php" method="post">
         <div class="row">
           <div class="input-field col s11">
-            <label for="login"
-              ><i class="material-icons">person</i> Username</label
-            >
-            <input id="login" type="text" class="validate" />
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field col s11">
-            <label for="password"
+            <label for="password" name="password"
               ><i class="material-icons">lock</i> Password</label
             >
-            <input id="password" type="password" class="validate" />
+            <input id="password" type="password" name="password" class="validate" />
           </div>
         </div>
         <div class="row">
