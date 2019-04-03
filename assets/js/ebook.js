@@ -21,10 +21,10 @@ let ppts = [
 ];
 
 let videos = [
-    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
-    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf", download:"assets/pdf/Life is good.pdf"},
-    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"},
-    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"}
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf"}
 ];
 
 
@@ -78,8 +78,6 @@ function generateAside(){
         html += getPartHtml(part);
     });
     aside.innerHTML = html;
-
-
 }
 
 function getPartAttribute() {
@@ -99,6 +97,10 @@ function getPartAttribute() {
     }
     return null;
 }
+
+//////
+////// HTML GENERATORS
+//////
 
 function getPartHtml(part){
     let html = "";
@@ -123,33 +125,3 @@ function getPdfHtml(pdf){
 }
 
 
-
-/*
-HTML TEMPLATE
-<li>
-    <h2>Part I: consumers and consumption in Europe <em>General characteristics and consumer awareness importance</em></h2>
-    <ul>
-        <li>
-            <h3>I. Consumers and their behaviour on the market</h3>
-            <div>
-                <img src="assets/images/powerpoint.png" class="logobtn" alt="powerpointbtn">
-                <img src="assets/images/pdflogo.png" class="logobtn" alt="pdfbtn">
-            </div>
-        </li>
-        <li>
-            <h3>II. Understanding consumption and consumer values</h3>
-            <div>
-                <img src="assets/images/powerpoint.png" class="logobtn"  alt="powerpointbtn">
-                <img src="assets/images/pdflogo.png" class="logobtn"  alt="pdfbtn">
-            </div>
-        </li>
-        <li>
-            <h3>III. Customer awareness importance</h3>
-            <div>
-                <img src="assets/images/powerpoint.png" class="logobtn"  alt="powerpointbtn">
-                <img src="assets/images/pdflogo.png" class="logobtn"  alt="pdfbtn">
-            </div>
-        </li>
-    </ul>
-</li>
-*/
