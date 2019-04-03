@@ -7,11 +7,29 @@ let parts = [
 
 
 let pdfs = [
-    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf"},
-    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf"},
-    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf"},
-    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf"}
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf", download:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"}
 ];
+
+let ppts = [
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf", download:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"}
+];
+
+let videos = [
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf", download:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"}
+];
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', init);
 
