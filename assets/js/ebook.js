@@ -1,3 +1,5 @@
+"use strict";
+
 let parts = [
     {number: 1, title: "Insert a part title in this place"}
 ];
@@ -19,3 +21,48 @@ function getPart(number) {
     console.log(parts);
     return parts.filter(part => part.number = number)[0]
 }
+
+function generateAside(){
+
+
+}
+
+function getPartHtml(part){
+
+}
+
+function getPdfHtml(pdf){
+
+}
+
+
+
+/*
+HTML TEMPLATE
+<li>
+    <h2>Part I: consumers and consumption in Europe <em>General characteristics and consumer awareness importance</em></h2>
+    <ul>
+        <li>
+            <h3>I. Consumers and their behaviour on the market</h3>
+            <div>
+                <img src="assets/images/powerpoint.png" class="logobtn" alt="powerpointbtn">
+                <img src="assets/images/pdflogo.png" class="logobtn" alt="pdfbtn">
+            </div>
+        </li>
+        <li>
+            <h3>II. Understanding consumption and consumer values</h3>
+            <div>
+                <img src="assets/images/powerpoint.png" class="logobtn"  alt="powerpointbtn">
+                <img src="assets/images/pdflogo.png" class="logobtn"  alt="pdfbtn">
+            </div>
+        </li>
+        <li>
+            <h3>III. Customer awareness importance</h3>
+            <div>
+                <img src="assets/images/powerpoint.png" class="logobtn"  alt="powerpointbtn">
+                <img src="assets/images/pdflogo.png" class="logobtn"  alt="pdfbtn">
+            </div>
+        </li>
+    </ul>
+</li>
+*/
