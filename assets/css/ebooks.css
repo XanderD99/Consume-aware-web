@@ -1,6 +1,18 @@
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 900px){
+
+	#mainWrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
 	aside {
-		max-height: 50vh!important;
+		max-height: 40%;
+		min-width: 100%;
+	}
+
+	main {
+		max-height: 60%;
+		min-width: 100%;
 	}
 }
 
@@ -10,9 +22,10 @@ html, body {
 }
 
 #mainWrapper {
-	height: 90vh;
+	display: flex;
+	/*height: 90vh;*/
 	margin: 0;
-	min-height: 100%;
+	/*min-height: 100%;*/
 	padding: 0;
 }
 
@@ -22,6 +35,9 @@ html, body {
 /*			*/
 /************/
 
+h1 {
+	font-size: 2rem;
+}
 
 header {
 	background-color: #19dcdc;
@@ -42,11 +58,14 @@ header img {
 /************/
 
 aside {
+	/*flex-direction: row;*/
 	background-color: #dcdcdc;
 	min-height: 100%;
 	max-height: 90vh;
 	border: 1px solid rgba(0,0,0,.1);
 	overflow-y: scroll;
+	max-width: 25%;
+	/*background-color: gold;*/
 }
 
 #navigator {
@@ -56,12 +75,18 @@ aside {
 }
 
 li h3{
-	width: 100%;
-	padding: 2px;
+	/*width: 100%;*/
+	padding-left: 5%;
 	background-color: #a2a2a2;
 	font-size: 1.25rem;
+	color: white;
 	margin-bottom: 20px;
 	margin-top: 20px;
+
+}
+
+#list {
+	/*max-width: 20%;*/
 }
 
 ul {
@@ -70,6 +95,7 @@ ul {
 
 h2 {
 	padding-top: 15px;
+	font-size: 1.4rem;
 
 }
 
@@ -101,7 +127,7 @@ h2 {
 em {
 	display: block;
 	font-style: italic;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 
 }
 
@@ -136,6 +162,7 @@ em {
 
 
 main {
+	min-width: 75%;
 	padding: 0!important;
 	text-align: center;
 }
@@ -156,3 +183,19 @@ main a img {
 	margin-right: 5px;
 }
 
+/**********/
+/* footer */
+/**********/
+footer {
+	background-color: #19dcdc;
+	height: 92px;
+	color: white;
+}
+
+footer .container {
+
+	border-bottom: solid 1px black;
+	padding-top: 3%;
+	padding-right: 0;
+
+}
