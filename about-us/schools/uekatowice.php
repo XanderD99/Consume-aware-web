@@ -38,7 +38,7 @@ The co-operation with foreign countries is one of the most intensively developin
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
-                <li><a href="/about-us/detail.php?name=Marta">Read more</a></li>
+                <li><a href="/about-us/detail.php?name=marta">Read more</a></li>
             </ul>
         </div>
     </div>

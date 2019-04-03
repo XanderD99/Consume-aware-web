@@ -74,15 +74,24 @@ margin-left: 1rem;
 	flex-direction: column;
 }
 
-#part1, #chapter1, #chapter2, #chapter3, #presentations, #e-book, #interactive {
+
+#book, #bookStudent {
+	background-color: #0055FF;
+}
+
+#app, #appStudent {
+	background-color: #BF00FF;
+}
+
+#part1, #chapter1, #chapter2, #chapter3, #presentations, #e-book, #interactive, #presentationStudent {
 	background-color: #FECB01;
 }
 
-#part2, #chapter4, #chapter5, #chapter6 {
+#part2, #chapter4, #chapter5, #chapter6, #e-bookStudent{
 	background-color: #FF7B00;
 }
 
-#part3, #chapter7, #chapter8, #chapter9, #chapter10, #chapter11 {
+#part3, #chapter7, #chapter8, #chapter9, #chapter10, #chapter11, #practialStudent {
 	background-color: #FF3C00;
 }
 
