@@ -3,6 +3,7 @@ include_once("head.php");
 
 ?>
 		<header class="lander">
+			<h1>Consume Aware</h1>
 		</header>
 		<main class="container">
 			<h3>Importance of consumer awareness</3>
