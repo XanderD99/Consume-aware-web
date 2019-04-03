@@ -4,7 +4,7 @@
     University of Economics in Katowice was founded in 1937 and is the biggest and oldest business school in the region, one of the top universities in Poland. Each year over 10,000 Polish and international students follow our degree programs at the Bachelor, Master, Doctoral and Post-diploma levels. University’s excellence is confirmed by full state accreditation in education as well as by top ranks of the faculties within the national assessment system of research institutions. Drawing on its long history and traditions, our university continues to grow and evolve implementing new ideas and diversification in its study offer as well as participating in various research and didactic projects. Our educational offer and lifelong learning programs attract students from all over the world and from every generation. Due to the balance between academic strength and soft skills in our courses as well as professional career services the employability of our graduates is very high. We cherish relations with our local and international alumni engaging them in many activities on campus and in social media. We are proud to create today’s managers for tomorrow’s challenges. The co-operation with foreign countries is one of the most intensively developing activities of the University of Economics in Katowice. The University successfully combines rich tradition with innovative approach to academic challenges in order to strengthen its position of modern research, expertise and education center.
 </p>
 
-<h4>Our moto</h4>
+<h4>Our motto</h4>
 <p>
     Your place, your space, your future
 </p>
@@ -36,7 +36,7 @@
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
-                <li><a href="/about-us/detail.php?name=Marta">Read more</a></li>
+                <li><a href="/about-us/detail.php?name=marta">Read more</a></li>
             </ul>
         </div>
     </div>
