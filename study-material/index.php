@@ -3,7 +3,7 @@ include_once("../head.php");
 
 ?>
 <main class="container">
-  <h1 class="center-align">Study material</h1>
+  <h1>Study material</h1>
   <div class="divider"></div>
   <br />
   <div class="section row center-align">
@@ -138,7 +138,7 @@ include_once("../head.php");
 
   <div id="modal" class="modal">
     <div class="modal-content">
-      <form action="" method="post">
+      <form action="login.php" method="post">
         <div class="row">
           <div class="input-field col s11">
             <label for="login"

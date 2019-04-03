@@ -8,13 +8,13 @@ if(!isset($_POST['password'])){
     exit;
 } else {
     if(!password_verify( clean($_POST['password']) , $hash)){
-        header("Location: Teacher-login.php");
+        header("Location: /study-material/index.php");
         exit;
     };
 }
 
 //password ok!
-header("Location: Teacher.php");
+header("Location: /study-material/index.php");
 exit;
 
 ?>
