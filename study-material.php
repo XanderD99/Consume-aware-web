@@ -140,6 +140,7 @@ include_once("head.php");
 		<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"></a>
 	</div>
 </div>
+
 </main>
 
 <?php
