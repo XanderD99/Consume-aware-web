@@ -8,7 +8,7 @@ main {
 	flex: 1 0 auto;
 }
 
-header {
+.lander {
 	position: relative;
 	height: 500px;
 	display: flex;
@@ -18,7 +18,7 @@ header {
 	color: white
 }
 
-header::before {
+.lander::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -66,6 +66,12 @@ margin-left: 1rem;
 .list-item::before {
 	content: '-';
 	margin-right: 0.5rem;
+}
+
+.centerIcon {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 #part1, #chapter1, #chapter2, #chapter3, #presentations, #e-book, #interactive {

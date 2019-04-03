@@ -31,7 +31,6 @@
 
 	</head>
 	<body>
-		<header>
 		<nav class="cyan">
 			<div class="nav-wrapper px-4">
 				<a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
@@ -57,4 +56,3 @@
 			<li><a href="/about-us/">About us</a></li>
 			<li><a href="contact.php">Contact</a></li>
 		</ul>
-		</header>
