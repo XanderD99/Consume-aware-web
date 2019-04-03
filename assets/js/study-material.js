@@ -3,7 +3,9 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function init() {
-    Form();
+
+console.log("init");
+    
     document.querySelector("#teacher").addEventListener("click", e => selectTeacher("#teacherSub"));
     document.querySelector("#book").addEventListener("click", e => selectBook("#bookSub"));
     document.querySelector("#part1").addEventListener("click", e => selectPart("#part1Sub"));
@@ -29,6 +31,8 @@ function Form(){
 }
 
 function selectTeacher(query) {
+    console.log("werk");
+    Form();
     hide('#bookSub');
     selectPart(query);
 }

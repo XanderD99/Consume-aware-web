@@ -3,17 +3,17 @@ include_once("../head.php");
 
 ?>
 <main class="container">
-    <h1 class="center-align">Study material</h1>
-    <div class="divider"></div>
-    <br />
-    <div class="section row center-align">
-        <button id="teacher" class="waves-effect waves-teal cyan btn-large">
-            Teacher
-        </button>
-        <button id="student" class="waves-effect waves-teal cyan btn-large">
-            Student
-        </button>
-    </div>
+  <h1>Study material</h1>
+  <div class="divider"></div>
+  <br />
+  <div class="section row center-align">
+    <button id="teacher" class="waves-effect waves-teal cyan btn-large">
+      Teacher
+    </button>
+    <button id="student" class="waves-effect waves-teal cyan btn-large">
+      Student
+    </button>
+  </div>
 
     <div id="teacherSub" class="hide row center-align">
         <button id="instruction" class="waves-effect waves-teal btn-large">
@@ -136,6 +136,7 @@ include_once("../head.php");
         <a href="">Interactive</a>
     </div>
 
+<<<<<<< HEAD
     <div id="modal" class="modal">
         <div class="modal-content">
             <form action="" method="post">
@@ -159,6 +160,18 @@ include_once("../head.php");
                     </div>
                 </div>
             </form>
+=======
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <form action="login.php" method="post">
+        <div class="row">
+          <div class="input-field col s11">
+            <label for="password" name="password"
+              ><i class="material-icons">lock</i> Password</label
+            >
+            <input id="password" type="password" name="password" class="validate" />
+          </div>
+>>>>>>> 13abef9122d514ffc2fd0c4f31eec7576c3766ce
         </div>
         <div class="modal-footer">
             <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat"></a>
