@@ -41,7 +41,7 @@
 					<li><a href="index.php">Home</a></li>
 					<li><a href="/project/">Project</a></li>
 					<li><a href="/study-material/">Study material</a></li>
-					<li><a href="">Conference</a></li>
+					<li><a href="conference.php">Conference</a></li>
 					<li><a href="/about-us/">About us</a></li>
 					<li><a href="contact.php">Contact</a></li>
 				</ul>
@@ -52,7 +52,7 @@
 			<li><a href="index.php">Home</a></li>
 			<li><a href="/project/">Project</a></li>
 			<li><a href="/study-material/">Study material</a></li>
-			<li><a href="">Conference</a></li>
+			<li><a href="conference.php">Conference</a></li>
 			<li><a href="/about-us/">About us</a></li>
 			<li><a href="contact.php">Contact</a></li>
 		</ul>
