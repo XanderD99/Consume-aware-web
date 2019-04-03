@@ -2,6 +2,8 @@
 include_once("head.php");
 
 ?>
+		<header class="lander">
+		</header>
 		<main class="container">
 			<h3>Importance of consumer awareness</3>
 			<p>In era of globalization, the consumers became a part of processes which in many cases they do not understand, 

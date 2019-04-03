@@ -51,7 +51,7 @@
                 <div class="card hoverable">
                     <div class="card-image">
                         <img height='250' src="/assets/images/business-woman-flow-chart.jpg">
-                        <span class="card-title">Outcomes</span>
+                        <span class="card-title black-text">Outcomes</span>
                     </div>
                 </div>
             </a>
@@ -65,7 +65,7 @@
                 </div>
             </a>
 
-            <a href="" class="col s12 m3">
+            <a href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en" class="col s12 m3">
                 <div class="card hoverable">
                     <div class="card-image cyan">
                         <img height='250' src="/assets/images/erasmus.png">
