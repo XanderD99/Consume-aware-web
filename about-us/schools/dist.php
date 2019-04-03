@@ -6,6 +6,12 @@ switch($_GET['school']) {
     case 'seamk': 
         include_once('seamk.php');
     break;
+    case 'bge':
+        include_once('bge.php');
+    break;
+    case 'bucarest':
+        include_once('bucarest.php');
+    break;
     default:
         echo 'nothing to display';
     break;
