@@ -1,5 +1,6 @@
 <?php
 include_once("head.php");
+?>
 
 <head>
 	<meta charset="UTF-8" />
@@ -18,7 +19,7 @@ include_once("head.php");
 <body>
 	<header>
 	<nav class="cyan">
-            <a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
+            <a href="/" class="brand-logo"> <img src="/assets/images/Consumee-03.png" height="60" alt="logo"> </a>
         <div class="nav-wrapper px-4">
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
                 <li><a href="/">Home</a></li>
