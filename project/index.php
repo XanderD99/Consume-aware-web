@@ -4,7 +4,7 @@ include_once("../head.php");
 ?>
 <main class="container">
     <div class="row">
-        <a href='/project/goals.php' class="col s12 m3">
+        <a href='/project/goals.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/goals.png">
@@ -13,7 +13,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/outcomes.php' class="col s12 m3">
+        <a href='/project/outcomes.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/outcomes.png">
@@ -22,7 +22,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/structure.php' class="col s12 m3">
+        <a href='/project/structure.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/structure.png">
@@ -31,7 +31,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/meetings.php' class="col s12 m3">
+        <a href='/project/meetings.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/meeting.png">
@@ -40,7 +40,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/reports.php' class="col s12 m3">
+        <a href='/project/reports.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/report.png">
@@ -49,7 +49,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="/project/dissemination.php" class="col s12 m3">
+        <a href="/project/dissemination.php" class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/Dissemination.png">
@@ -58,7 +58,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="/project/erasmus.php" class="col s12 m3">
+        <a href="/project/erasmus.php" class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/erasmus.png">
@@ -67,7 +67,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="/project/partnership.php" class="col s12 m3">
+        <a href="/project/partnership.php" class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/partnership.png">
