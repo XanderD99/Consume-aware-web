@@ -1,4 +1,6 @@
+let pdfs = [
 
+];
 
 document.addEventListener('DOMContentLoaded', init);
 
