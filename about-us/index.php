@@ -30,36 +30,30 @@
 		/>
 	</head>
 	<body>
-		<nav class="cyan">
+	<nav class="cyan">
 			<div class="nav-wrapper px-4">
-				<a href="/" class="brand-logo">
-					<img
-						src="/assets/images/Consu mee-03.png"
-						height="60"
-						alt="logo"
-					/>
-				</a>
+				<a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"
 					><i class="material-icons">menu</i>
-				</a>
+					</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="/index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li><a href="/project/">Project</a></li>
-					<li><a href="/study-material.html">Study material</a></li>
-					<li><a href="/conference.html">Conference</a></li>
+					<li><a href="/study-material.php">Study material</a></li>
+					<li><a href="/conference.php">Conference</a></li>
 					<li><a href="/about-us/">About us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/contact.php">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="/index.html">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="/project/">Project</a></li>
-			<li><a href="/study-material.html">Study material</a></li>
-			<li><a href="/conference.html">Conference</a></li>
+			<li><a href="/study-material">Study material</a></li>
+			<li><a href="/conference.php">Conference</a></li>
 			<li><a href="/about-us/">About us</a></li>
-			<li><a href="/contact.html">Contact</a></li>
+			<li><a href="/contact.php">Contact</a></li>
 		</ul>
 		<main class="container"></main>
 		<footer class="page-footer cyan">
