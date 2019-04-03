@@ -29,8 +29,6 @@ function setPdf() {
     let chapter = this.getAttribute("data-chapter");
     let file = this.getAttribute("data-file");
     let pdf = getPdf(chapter);
-    console.log(pdf);
-    console.log(pdf.location);
     document.getElementById("title").innerHTML = pdf.title;
     PDFObject.embed(pdf.location,"#pdfviewer");
 }
@@ -50,7 +48,6 @@ function getPdf(chapter) {
 
 function generateAside(){
     let part = getPartAttribute();
-    console.log(part);
     let aside = document.querySelector("#list");
     let html = "";
     let generatedParts = parts;
@@ -59,7 +56,6 @@ function generateAside(){
             partObj.number === part
         );
     }
-    console.log(generatedParts);
     generatedParts.forEach(part => {
         html += getPartHtml(part);
     });
@@ -71,16 +67,17 @@ function generateAside(){
 function getPartAttribute() {
     let url = window.location.href;
     let attributesString = url.split("?")[1];
-    if(attributesString !== undefined) {
-        let attributes = attributesString.split("&");
-        console.log(attributes);
-        let part = attributes.filter(attribute =>
-            attribute.includes("part")
-        )[0];
-        let value = part.split("=")[1];
-        if(value !== null || value !== undefined) {
-            return parseInt(value);
-        }
+    let attributes = attributesString === null|| attributesString === undefined ? null: attributesString.split("&");
+    let part = attributes === null|| attributes === undefined ? null:attributes.filter(attribute =>
+        attribute.includes("part")
+    )[0];
+    console.log(part);
+    let value = part === null || part === undefined ? null:part.split("=")[1];
+    console.log(value);
+    if(value !== null && value !== undefined) {
+        console.log(value);
+        return parseInt(value);
+
     }
     return null;
 }
