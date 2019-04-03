@@ -51,8 +51,7 @@ function selectPart(query) {
     hide("#part2Sub");
     hide("#part1Sub");
     hide("#part3Sub");
-
-    show(query);
+    selectChapter(query);
 }
 
 

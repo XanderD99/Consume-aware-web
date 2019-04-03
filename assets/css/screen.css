@@ -67,3 +67,15 @@ margin-left: 1rem;
 	content: '-';
 	margin-right: 0.5rem;
 }
+
+#part1, #chapter1, #chapter2, #chapter3, #presentations, #e-book, #interactive {
+	background-color: #FECB01;
+}
+
+#part2, #chapter4, #chapter5, #chapter6 {
+	background-color: #FF7B00;
+}
+
+#part3, #chapter7, #chapter8, #chapter9, #chapter10, #chapter11 {
+	background-color: #FF3C00;
+}
