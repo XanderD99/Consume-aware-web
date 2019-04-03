@@ -19,7 +19,7 @@ include_once("head.php");
 					<div class="input-field col s12">
 						<label for="email">Your email</label>
 						<input
-							type="text"
+							type="email"
 							id="email"
 							class="validate"
 							placeholder="example@domainname.com"
@@ -45,18 +45,15 @@ include_once("head.php");
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<button class="btn waves-effect waves-light cyan" type="submit" name="action" onclick="alertFunction()">
+						<a class="btn waves-effect waves-light cyan" id="submitButton">
 							Send <i class="material-icons right">send</i>
-  						</button>
+  						</a>
 					</div>
 				</div>
-
-
-				
-        
-
 			</form>
 		</main>
+
+		<script src="/assets/js/contact.js"></script>
 <?php
 include_once("tail.php")
 ?>

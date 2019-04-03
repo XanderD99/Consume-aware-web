@@ -12,7 +12,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/goals.php' class="col s12 m6 l6 xl3">
+        <a href='/about-us/detail.php?school=howest' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/howest.png">
@@ -20,7 +20,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/goals.php' class="col s12 m6 l6 xl3">
+        <a href='/about-us/detail.php' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/isik-uni0.png">
@@ -28,7 +28,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href='/project/goals.php' class="col s12 m6 l6 xl3">
+        <a href='/about-us/detail.php?school=seamk' class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/seamk-1.png">
