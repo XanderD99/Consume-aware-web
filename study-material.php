@@ -15,7 +15,33 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
+<body>
+	<header>
+	<nav class="cyan">
+            <a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
+        <div class="nav-wrapper px-4">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+                <li><a href="/">Home</a></li>
+            <ul class="right hide-on-med-and-down">
+            </a>
+                <li><a href="/project/">Project</a></li>
+                <li><a href="/study-material.php">Study material</a></li>
+                <li><a href="/conference.php">Conference</a></li>
+                <li><a href="/about-us/">About us</a></li>
+                <li><a href="/contact.php">Contact</a></li>
+        </div>
+            </ul>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
 
+        <li><a href="/">Home</a></li>
+        <li><a href="/project/">Project</a></li>
+        <li><a href="/study-material">Study material</a></li>
+        <li><a href="/conference.php">Conference</a></li>
+        <li><a href="/about-us/">About us</a></li>
+        <li><a href="/contact.php">Contact</a></li>
+    </ul>
+	</header>
 	<main class="container">
 		<h1 class="center-align">Study material</h1>
 		<div class="divider"></div>
@@ -157,91 +183,7 @@
 			</div>
 		</div>
 	</main>
-
-	<!-- Compiled and minified JavaScript -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-	<script src="/assets/js/script.js"></script>
-	<script src="/assets/js/study-material.js"></script>
-</body>
-
-</html>
-<body>
-    <nav class="cyan">
-            <a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
-        <div class="nav-wrapper px-4">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
-                <li><a href="/">Home</a></li>
-            <ul class="right hide-on-med-and-down">
-            </a>
-                <li><a href="/project/">Project</a></li>
-                <li><a href="/study-material.php">Study material</a></li>
-                <li><a href="/conference.php">Conference</a></li>
-                <li><a href="/about-us/">About us</a></li>
-                <li><a href="/contact.php">Contact</a></li>
-        </div>
-            </ul>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-
-        <li><a href="/">Home</a></li>
-        <li><a href="/project/">Project</a></li>
-        <li><a href="/study-material">Study material</a></li>
-        <li><a href="/conference.php">Conference</a></li>
-        <li><a href="/about-us/">About us</a></li>
-        <li><a href="/contact.php">Contact</a></li>
-    </ul>
-        <ul class="row">
-            <li>
-                <div class="col s4">
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="/assets/images/goals.jpg">
-                            <span class="card-title">Goals and description</span>
-                        </div>
-                        <div class="card-content">
-                            <p>In here you will find more information about the goals of this project and a short description.</p>
-                        </div>
-                        <div class="card-action">
-                        </div>
-                            <a href="/study-material/goalsAndDescription.php">More info</a>
-                    </div>
-                </div>
-            </li>
-
-            <li>
-                <div class="col s4">
-                        <div class="card-image">
-                    <div class="card medium">
-                            <img src="/assets/images/student.jpeg">
-                        </div>
-                            <span class="card-title">For students</span>
-                        <div class="card-content">
-                            <p>Click the link to find all the materials for students.</p>
-                        </div>
-                        <div class="card-action">
-                        </div>
-                            <a href="#">Go to material</a>
-                    </div>
-            </li>
-                <div class="col s4">
-            <li>
-                </div>
-                    <div class="card medium">
-                        <div class="card-image">
-                            <img src="/assets/images/teacher.jpeg">
-                            <span class="card-title">For teachers</span>
-                        </div>
-                        <div class="card-content">
-                            <p>Click the link to find all the materials for teachers.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">Go to material</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    <footer class="page-footer cyan">
+	<footer class="page-footer cyan">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
@@ -275,3 +217,14 @@
             </div>
         </div>
     </footer>
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="/assets/js/script.js"></script>
+	<script src="/assets/js/study-material.js"></script>
+</body>
+
+
+</html>
+
+    
+  
