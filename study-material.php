@@ -58,7 +58,7 @@
                             <p>In here you will find more information about the goals of this project and a short description.</p>
                         </div>
                         <div class="card-action">
-                            <a href="/study-material/goalsAndDescription.html">More info</a>
+                            <a href="/study-material/goalsAndDescription.php">More info</a>
                         </div>
                     </div>
                 </div>
@@ -104,8 +104,8 @@
             <div class="row">
                 <div class="col l6 s12">
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="/about-us/index.html">About us</a></li>
-                        <li><a class="grey-text text-lighten-3" href="/contact.html">Contact us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/about-us/index.php">About us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="/contact.php">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col l6 s12">

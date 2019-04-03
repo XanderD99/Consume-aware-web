@@ -98,7 +98,7 @@
                     protection and will contribute to make their life easier. Moreover this will be created by international teams, and such 
                     cooperation will develop a cross-cultural dialogue and understanding. What is more using the mobile application will 
                     familiarize all stakeholders with innovative solutions and develop their ICT skills. </p>
-                    <a href="/study-material.html" class="goBackLink">Back</a>
+                    <a href="/study-material.php" class="goBackLink">Back</a>
 
         </main>
 		<footer class="page-footer cyan">
@@ -106,8 +106,8 @@
 				<div class="row">
 					<div class="col l6 s12">
 							<ul>	
-								<li><a class="grey-text text-lighten-3" href="/about-us/index.html">About us</a></li>
-								<li><a class="grey-text text-lighten-3" href="/contact.html">Contact us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/about-us/index.php">About us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/contact.php">Contact us</a></li>
 							</ul>
 					</div>
 					<div class="col l6 s12">
