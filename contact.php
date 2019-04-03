@@ -45,7 +45,7 @@ include_once("head.php");
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<button class="btn waves-effect waves-light cyan" type="submit" name="action" onclick="alerFunction()">
+						<button class="btn waves-effect waves-light cyan" type="submit" name="action" onclick="alertFunction()">
 							Send <i class="material-icons right">send</i>
   						</button>
 					</div>

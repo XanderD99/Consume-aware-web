@@ -34,27 +34,27 @@ include_once("head.php");
 
 	<div class="row">
 		<a href="/about-us/">
-			<div class="col l4">
-				<img src="./assets/images/consumeAwareLogo.png" alt="Consume aware logo" class="col l12">
+			<div class="col m4">
+				<img src="./assets/images/consumeAwareLogo.png" alt="Consume aware logo" class="col s12">
 			</div>
-			<div class="col l4">
+			<div class="col m4">
 				<div class="row">
-					<img src="./assets/images/uekatowice.png" alt="University of Katowice logo" class="col l6">
-					<img src="./assets/images/howest.png" alt="Howest logo" class="col l6">
+					<img src="./assets/images/uekatowice.png" alt="University of Katowice logo" class="col s6">
+					<img src="./assets/images/howest.png" alt="Howest logo" class="col s6">
 				</div>
 				<div class="row">
-					<img src="./assets/images/isik-uni0.png" alt="Isik logo" class="col l6">
-					<img src="./assets/images/seamk-1.png" alt="Seamk logo" class="col l6">
+					<img src="./assets/images/isik-uni0.png" alt="Isik logo" class="col s6">
+					<img src="./assets/images/seamk-1.png" alt="Seamk logo" class="col s6">
 				</div>
 			</div>
-			<div class="col l4">
+			<div class="col m4">
 				<div class="row">
-					<img src="./assets/images/uni-bge.png" alt="Bge logo" class="col l6">
-					<img src="./assets/images/uni-bucarest.png" alt="Bucarest logo" class="col l6">
+					<img src="./assets/images/uni-bge.png" alt="Bge logo" class="col s6">
+					<img src="./assets/images/uni-bucarest.png" alt="Bucarest logo" class="col s6">
 				</div>
 				<div class="row">
-					<img src="./assets/images/uni-mont-blanc.png" alt="Savoie logo" class="col l6">
-					<img src="./assets/images/uni-trento.png" alt="Trento logo" class="col l6">
+					<img src="./assets/images/uni-mont-blanc.png" alt="Savoie logo" class="col s6">
+					<img src="./assets/images/uni-trento.png" alt="Trento logo" class="col s6">
 				</div>
 			</div>
 		</a>
