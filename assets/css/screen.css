@@ -38,7 +38,7 @@ main {
 
 p {
     line-height: 140%;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 1rem;
     text-align: justify;
 }
@@ -55,14 +55,15 @@ p {
 }
 
 .list {
-margin-left: 10px;
+margin-left: 1rem;
 }
 
 .list-item {
-	padding: 5px;
+	font-size: 1rem;
+	padding: 0.5rem;
 }
 
 .list-item::before {
 	content: '-';
-	margin-right: 5px;
+	margin-right: 0.5rem;
 }
