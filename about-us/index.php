@@ -21,54 +21,39 @@
 
 		<link rel="stylesheet" href="/assets/css/screen.css" />
 
-	<link rel="stylesheet" href="/assets/css/screen.css" />
-
-	<!-- Font Awesome-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-</head>
-
-<body>
+		<!-- Font Awesome-->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+			integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
 	<nav class="cyan">
-		<div class="nav-wrapper px-4">
-			<a href="/" class="brand-logo">
-				<img src="/assets/images/Consu mee-03.png" height="60" alt="logo" />
-			</a>
-			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
-			</a>
-			<ul class="right hide-on-med-and-down">
-				<li><a href="/index.html">Home</a></li>
-				<li><a href="/project/">Project</a></li>
-				<li><a href="/study-material.html">Study material</a></li>
-				<li><a href="/confernce.html">confernce</a></li>
-				<li><a href="/about-us/">About us</a></li>
-				<li><a href="/contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-
-	<ul class="sidenav" id="mobile-demo">
-		<li><a href="/index.html">Home</a></li>
-		<li><a href="/project/">Project</a></li>
-		<li><a href="/study-material.html">Study material</a></li>
-		<li><a href="/confernce.html">Confernce</a></li>
-		<li><a href="/about-us/">About us</a></li>
-		<li><a href="/contact.html">Contact</a></li>
-	</ul>
-	<main class="container">
-		<div class="row ">
-			<div class="card-panel col s3">
-				<img class="responsive-img" src="/assets/images/uekatowice-1.png">
+			<div class="nav-wrapper px-4">
+				<a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
+				<a href="#" data-target="mobile-demo" class="sidenav-trigger"
+					><i class="material-icons">menu</i>
+					</a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="/">Home</a></li>
+					<li><a href="/project/">Project</a></li>
+					<li><a href="/study-material.php">Study material</a></li>
+					<li><a href="/conference.php">Conference</a></li>
+					<li><a href="/about-us/">About us</a></li>
+					<li><a href="/contact.php">Contact</a></li>
+				</ul>
 			</div>
 		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="/index.html">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="/project/">Project</a></li>
-			<li><a href="/study-material.html">Study material</a></li>
-			<li><a href="/conference.html">Conference</a></li>
+			<li><a href="/study-material">Study material</a></li>
+			<li><a href="/conference.php">Conference</a></li>
 			<li><a href="/about-us/">About us</a></li>
-			<li><a href="/contact.html">Contact</a></li>
+			<li><a href="/contact.php">Contact</a></li>
 		</ul>
 		<main class="container"></main>
 		<footer class="page-footer cyan">

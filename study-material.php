@@ -16,35 +16,6 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 </head>
 
-<body>
-	<header>
-		<nav class="cyan">
-			<div class="nav-wrapper px-4">
-				<a href="/" class="brand-logo">
-					<img src="/assets/images/Consu mee-03.png" height="60" alt="logo" />
-				</a>
-				<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
-				</a>
-				<ul class="right hide-on-med-and-down">
-					<li><a href="/index.html">Home</a></li>
-					<li><a href="/project/">Project</a></li>
-					<li><a href="/study-material.html">Study material</a></li>
-					<li><a href="/conference.html">Conference</a></li>
-					<li><a href="/about-us/">About us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<ul class="sidenav" id="mobile-demo">
-			<li><a href="/index.html">Home</a></li>
-			<li><a href="/project/">Project</a></li>
-			<li><a href="/study-material.html">Study material</a></li>
-			<li><a href="/confernce.html">Confernce</a></li>
-			<li><a href="/about-us/">About us</a></li>
-			<li><a href="/contact.html">Contact</a></li>
-		</ul>
-	</header>
 	<main class="container">
 		<h1 class="center-align">Study material</h1>
 		<div class="divider"></div>
@@ -186,42 +157,6 @@
 			</div>
 		</div>
 	</main>
-	<footer class="page-footer cyan">
-		<div class="container">
-			<div class="row">
-				<div class="col l6 s12">
-					<h5 class="white-text">Footer Content</h5>
-					<p class="grey-text text-lighten-4">
-						You can use rows and columns here to organize your
-						footer content.
-					</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<h5 class="white-text">Links</h5>
-					<ul>
-						<li>
-							<a class="grey-text text-lighten-3" href="#!">Link 1</a>
-						</li>
-						<li>
-							<a class="grey-text text-lighten-3" href="#!">Link 2</a>
-						</li>
-						<li>
-							<a class="grey-text text-lighten-3" href="#!">Link 3</a>
-						</li>
-						<li>
-							<a class="grey-text text-lighten-3" href="#!">Link 4</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="footer-copyright">
-			<div class="container">
-				Copyright © 2019 Consume Aware All
-				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-			</div>
-		</div>
-	</footer>
 
 	<!-- Compiled and minified JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -230,3 +165,113 @@
 </body>
 
 </html>
+<body>
+    <nav class="cyan">
+            <a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
+        <div class="nav-wrapper px-4">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
+                <li><a href="/">Home</a></li>
+            <ul class="right hide-on-med-and-down">
+            </a>
+                <li><a href="/project/">Project</a></li>
+                <li><a href="/study-material.php">Study material</a></li>
+                <li><a href="/conference.php">Conference</a></li>
+                <li><a href="/about-us/">About us</a></li>
+                <li><a href="/contact.php">Contact</a></li>
+        </div>
+            </ul>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+
+        <li><a href="/">Home</a></li>
+        <li><a href="/project/">Project</a></li>
+        <li><a href="/study-material">Study material</a></li>
+        <li><a href="/conference.php">Conference</a></li>
+        <li><a href="/about-us/">About us</a></li>
+        <li><a href="/contact.php">Contact</a></li>
+    </ul>
+        <ul class="row">
+            <li>
+                <div class="col s4">
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="/assets/images/goals.jpg">
+                            <span class="card-title">Goals and description</span>
+                        </div>
+                        <div class="card-content">
+                            <p>In here you will find more information about the goals of this project and a short description.</p>
+                        </div>
+                        <div class="card-action">
+                        </div>
+                            <a href="/study-material/goalsAndDescription.php">More info</a>
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="col s4">
+                        <div class="card-image">
+                    <div class="card medium">
+                            <img src="/assets/images/student.jpeg">
+                        </div>
+                            <span class="card-title">For students</span>
+                        <div class="card-content">
+                            <p>Click the link to find all the materials for students.</p>
+                        </div>
+                        <div class="card-action">
+                        </div>
+                            <a href="#">Go to material</a>
+                    </div>
+            </li>
+                <div class="col s4">
+            <li>
+                </div>
+                    <div class="card medium">
+                        <div class="card-image">
+                            <img src="/assets/images/teacher.jpeg">
+                            <span class="card-title">For teachers</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Click the link to find all the materials for teachers.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Go to material</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    <footer class="page-footer cyan">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="/about-us/index.php">About us</a></li>
+                    </ul>
+                        <li><a class="grey-text text-lighten-3" href="/contact.php">Contact us</a></li>
+                <div class="col l6 s12">
+                </div>
+                    <ul class="navIconBox ">
+                        <li>
+                            <a class="grey-text text-lighten-3 footerlink" href="https://www.facebook.com/Consume-Aware-584585511743138/">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                            <a class="grey-text text-lighten-3 footerlink" href="https://twitter.com/Consume_Aware">
+                        <li>
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+            </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Copyright © 2019 Consume Aware. All Rights Reserved
+                    ERASMUS+
+                <a class="grey-text text-lighten-4 right" href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en">
+                </a>
+            </div>
+        </div>
+    </footer>

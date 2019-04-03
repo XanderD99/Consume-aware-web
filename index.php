@@ -31,23 +31,23 @@
 					><i class="material-icons">menu</i>
 					</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="/index.html">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li><a href="/project/">Project</a></li>
-					<li><a href="/study-material.html">Study material</a></li>
-					<li><a href="/conference.html">Conference</a></li>
+					<li><a href="/study-material.php">Study material</a></li>
+					<li><a href="/conference.php">Conference</a></li>
 					<li><a href="/about-us/">About us</a></li>
-					<li><a href="/contact.html">Contact</a></li>
+					<li><a href="/contact.php">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="/index.html">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="/project/">Project</a></li>
-			<li><a href="/study-material.html">Study material</a></li>
-			<li><a href="/conference.html">Conference</a></li>
+			<li><a href="/study-material">Study material</a></li>
+			<li><a href="/conference.php">Conference</a></li>
 			<li><a href="/about-us/">About us</a></li>
-			<li><a href="/contact.html">Contact</a></li>
+			<li><a href="/contact.php">Contact</a></li>
 		</ul>
 		<header>
 			<h1>Consume Aware</h1>
@@ -69,8 +69,8 @@
 				<div class="row">
 					<div class="col l6 s12">
 							<ul>	
-								<li><a class="grey-text text-lighten-3" href="/about-us/index.html">About us</a></li>
-								<li><a class="grey-text text-lighten-3" href="/contact.html">Contact us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/about-us/">About us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/contact.php">Contact us</a></li>
 							</ul>
 					</div>
 					<div class="col l6 s12">
