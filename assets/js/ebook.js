@@ -6,29 +6,7 @@ let parts = [];
 
 function init(){
 
-    let pdf2 = new Pdf(2, "second title","assets/pdf/3_Understanding-the-Market-and-Companies-Behavior.pdf","");
-    let pdf = new Pdf(1, "just a title", "assets/pdf/e-chapter9.pdf", "loc");
-    let ppt1 = new Ppt(1,"ppt title", "assets/pdf/New_e-book_chapter_VI.pdf","download");
     generateParts();
-    let Video1 = new Video(1,"Video title","plekke");
-    let chap1 = new Chapter(1, "chapter1 title");
-    let chap2 = new Chapter(2, "chapter2 title");
-
-    chap1.addPdf(pdf2);
-
-
-    chap2.addPdf(pdf);
-
-    let part = new Part(1, "part title");
-    let part2 = new Part(2, "second part");
-    part.addChapter(chap1);
-    part.addChapter(chap2);
-    parts.push(part);
-    parts.push(part2);
-
-
-
-
     generateAside();
     setFileClickListeners();
 
