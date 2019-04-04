@@ -26,4 +26,4 @@
             <p>Smyczek, S., 2015, New media in higher education and values for students on merging markets, in: New Media in Higher Education Market. Katowice: University of Economics</p>
 
             <h4>Message for students</h2>
-                <p>Progress is always better then perfection</p>
+                <p class="motto">Progress is always better then perfection</p>

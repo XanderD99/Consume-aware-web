@@ -26,7 +26,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/structure.png">
-                    <span class="card-title black-text">Organizational structure</span>
+                    <span class="card-title black-text">Organisational structure</span>
                 </div>
             </div>
         </a>

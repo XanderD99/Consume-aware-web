@@ -42,7 +42,7 @@ Kampusranta 11, <br>
             </ul>
         </div>
     </div>
-    <div class="s12 m6 l4 xl3 col">
+    <!--div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
                 <img class="img-fluid" src="/assets/images/people/marjo-arola.png">
@@ -55,7 +55,7 @@ Kampusranta 11, <br>
                 <li><a href="mailto:">mail</a></li>
                 <li><a href="/about-us/detail.php?name=marjo">Read more</a></li>
             </ul>
-        </div>
+        </div-->
     </div>
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">

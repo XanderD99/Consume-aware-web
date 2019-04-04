@@ -21,4 +21,4 @@
 <p>Sławomir Smyczek, Marta Grybś-Kabocik, Justyna Matysiewicz, Agnieszka Tetla (2017), Patologie w zachowaniach konsumentów na rynku, Warszawa: Wydawnictwo Placet.</p>
 <p>Agnieszka Tetla (2018), The influence of product markings on consumer buying decisions on FMCG market,  The business & Management Review, Vol. 9, Nr 4, Oxford: ABRM.</p>
 <h4>Message for students</h4>
-<p>Stay open-minded!</p>
+<p class="motto">Stay open-minded!</p>

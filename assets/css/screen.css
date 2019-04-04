@@ -32,6 +32,10 @@ main {
 	z-index: -1;
 }
 
+.motto{
+	font-weight:bold;
+}
+
 main {
 	padding: 2rem;
 }
@@ -233,4 +237,13 @@ p {
 .centeredConsumeAwareLogo {
 	display: flex;
 	align-items: center;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+
+.navigation button:first-of-type {
+	margin-right: 10px;
 }

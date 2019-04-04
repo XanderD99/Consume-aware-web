@@ -24,4 +24,4 @@
 <p>Grybś-Kabocik, M: Conscious and latent consumers’ attitudes, World Scientific News, 89 (2017), 283-293</p>
 <p>Grybś-Kabocik, M.: Neuromarketing Application in Consumer Behaviour Research [w:] Michoń, P. (red.) New Trends in Economics, Management and Finance, Poznań University of Economics and Business Print Shop, Poznań, 2016.</p>
 <h4>Message for students</h4>
-<p>If you can dream it, you can do it</p>
+<p class="motto">If you can dream it, you can do it</p>
