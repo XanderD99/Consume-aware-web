@@ -1,6 +1,7 @@
 <?php
+include '../utils.php';
 isset($_GET['name']) ?$string = $_GET['name'] : header('Location: /about-us');
-
+$string = clean($string);
 switch ($string) {
     case 'slawomir':
         include_once('slawomir.php');
