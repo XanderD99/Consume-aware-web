@@ -1,19 +1,27 @@
 <?php
 include_once("head.php");
 
+if (isset($_POST["name"])) {
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$subject = $_POST["subject"];
+	$message = $_POST["message"];
+	$receiver = "someone@example.com";
+
+	mail($receiver, $subject, $message, $name);
+}
 ?>
 		<main class="container">
-			<form action="" method="post" id="contactForm">
+			<form action="contact.php" method="post" id="contactForm">
 				<div class="row">
 					<h5>
 						If you have any question do not hesitate to contact us.
 					</h5>
-					<p>Use this page to set up an e-mail (only works if you have an e-mail client installed, eg. Outlook) or mail us on: example@mail.com</p>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="name">Name and surname</label>
-						<input type="text" id="name" class="validate" />
+						<input type="text" id="name" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
@@ -24,6 +32,7 @@ include_once("head.php");
 							id="email"
 							class="validate"
 							placeholder="example@domainname.com"
+							required
 						/>
 						<span
 							class="helper-text"
@@ -35,30 +44,23 @@ include_once("head.php");
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="subject">Subject</label>
-						<input type="text" id="subject" class="validate" />
+						<input type="text" id="subject" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="message">Write your message here</label>
-						<input type="text" id="message" class="validate" />
+						<input type="text" id="message" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<a class="btn waves-effect waves-light cyan" id="submitButton">
-							Send <i class="material-icons right">send</i>
-  						</a>
+						<input type="submit" class="btn waves-effect waves-light cyan" id="submitButton" value="Send">
 					</div>
 				</div>
 			</form>
 		</main>
 
-		<div class="row">
-		<div class="col s12" id="contactStatus"></div>
-		</div>
-
-		<script src="/assets/js/contact.js"></script>
 <?php
-include_once("tail.php")
+include_once("tail.php");
 ?>

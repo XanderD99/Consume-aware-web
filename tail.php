@@ -3,8 +3,8 @@
 				<div class="row">
 					<div class="col l6 s12">
 							<ul>	
-								<li><a class="grey-text text-lighten-3" href="/about-us/index.html">About us</a></li>
-								<li><a class="grey-text text-lighten-3" href="/contact.html">Contact us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/about-us/index.php">About us</a></li>
+								<li><a class="grey-text text-lighten-3" href="/contact.php">Contact us</a></li>
 							</ul>
 					</div>
 					<div class="col l6 s12">

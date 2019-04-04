@@ -1,7 +1,7 @@
 body {
 	display: flex;
 	min-height: 100vh;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 main {
@@ -33,29 +33,29 @@ main {
 }
 
 main {
-    padding: 2rem;
+	padding: 2rem;
 }
 
 p {
-    line-height: 140%;
-    font-size: 1rem;
-    padding: 1rem;
-    text-align: justify;
+	line-height: 140%;
+	font-size: 1rem;
+	padding: 1rem;
+	text-align: justify;
 }
 
 .footerlink {
-    font-size: 2rem;
-    margin-left: 1rem;
+	font-size: 2rem;
+	margin-left: 1rem;
 }
 
 .navIconBox {
-    display: flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
 }
 
 .list {
-margin-left: 1rem;
+	margin-left: 1rem;
 }
 
 .list-item {
@@ -75,23 +75,42 @@ margin-left: 1rem;
 }
 
 
-#book, #bookStudent {
+#book,
+#bookStudent {
 	background-color: #0055FF;
 }
 
-#app, #appStudent {
+#app,
+#appStudent {
 	background-color: #BF00FF;
 }
 
-#part1, #chapter1, #chapter2, #chapter3, #presentations, #e-book, #interactive, #presentationStudent {
+#part1,
+#chapter1,
+#chapter2,
+#chapter3,
+#presentations,
+#e-book,
+#interactive,
+#presentationStudent {
 	background-color: #FECB01;
 }
 
-#part2, #chapter4, #chapter5, #chapter6, #e-bookStudent{
+#part2,
+#chapter4,
+#chapter5,
+#chapter6,
+#e-bookStudent {
 	background-color: #FF7B00;
 }
 
-#part3, #chapter7, #chapter8, #chapter9, #chapter10, #chapter11, #practialStudent {
+#part3,
+#chapter7,
+#chapter8,
+#chapter9,
+#chapter10,
+#chapter11,
+#practialStudent {
 	background-color: #FF3C00;
 }
 
@@ -100,23 +119,23 @@ margin-left: 1rem;
 	margin-bottom: 30px;
 	background-color: whitesmoke;
 	border: 1px solid lightgray;
-	border-radius: 5px; 
+	border-radius: 5px;
 	text-align: center;
 	overflow: hidden;
 	position: relative;
 	transition: box-shadow .5s ease;
-  }
-  
-  .our-team .picture {
+}
+
+.our-team .picture {
 	display: inline-block;
 	height: 130px;
 	width: 130px;
 	margin-bottom: 50px;
 	z-index: 1;
 	position: relative;
-  }
-  
-  .our-team .picture::before {
+}
+
+.our-team .picture::before {
 	content: "";
 	width: 100%;
 	height: 0;
@@ -129,13 +148,13 @@ margin-left: 1rem;
 	opacity: 0.9;
 	transform: scale(3);
 	transition: all 0.3s linear 0s;
-  }
-  
-  .our-team:hover .picture::before {
+}
+
+.our-team:hover .picture::before {
 	height: 100%;
-  }
-  
-  .our-team .picture::after {
+}
+
+.our-team .picture::after {
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -145,29 +164,29 @@ margin-left: 1rem;
 	top: 0;
 	left: 0;
 	z-index: -1;
-  }
-  
-  .our-team .picture img {
+}
+
+.our-team .picture img {
 	width: 100%;
 	height: auto;
 	border-radius: 50%;
 	transform: scale(1);
 	transition: all 0.9s ease 0s;
-  }
-  
-  .our-team:hover .picture img {
+}
+
+.our-team:hover .picture img {
 	box-shadow: 0 0 0 14px #f7f5ec;
 	transform: scale(0.7);
-  }
-  
-  .our-team .title {
+}
+
+.our-team .title {
 	display: block;
 	font-size: 15px;
 	color: #4e5052;
 	text-transform: capitalize;
-  }
-  
-  .our-team .social {
+}
+
+.our-team .social {
 	width: 100%;
 	padding: 0;
 	margin: 0;
@@ -176,31 +195,36 @@ margin-left: 1rem;
 	bottom: -100px;
 	left: 0;
 	transition: all 0.5s ease 0s;
-  }
+}
 
-  .our-team:hover {
+.our-team:hover {
 	box-shadow: rgba(0, 0, 0, .5) 2px 2px 2px;
 	transition: box-shadow .3s ease;
-  }
-  
-  .our-team:hover .social {
+}
+
+.our-team:hover .social {
 	bottom: 0;
-  }
-  
-  .our-team .social li {
+}
+
+.our-team .social li {
 	display: inline-block;
-  }
-  
-  .our-team .social li a {
+}
+
+.our-team .social li a {
 	display: block;
 	padding: 10px;
 	font-size: 17px;
 	color: white;
 	transition: all 0.3s ease 0s;
 	text-decoration: none;
-  }
-  
-  .our-team .social li a:hover {
+}
+
+.our-team .social li a:hover {
 	color: #1369ce;
 	background-color: #f7f5ec;
-  }
+}
+
+/***Extra form css***/
+#submitButton {
+	color:white;
+}
