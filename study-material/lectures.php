@@ -11,10 +11,9 @@ include "../head.php";
         <a href="part3.php"><button id="part3" class="waves-effect waves-teal  btn-large study-button">Part 3</button></a>
     </div>
 <div class="row center-align">
-    <a href="teacher.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button>
-</div></a>
+    <a href="teacher.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button></a>
 </div>
-</main
+</main>
 
 <?php
 include "../tail.php";

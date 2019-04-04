@@ -49,7 +49,7 @@ include_once("../head.php");
             </div>
         </a>
 
-        <a href="/project/powerpoints.php" class="col s12 m6 l6 xl3">
+        <a href="/project/presentations.php" class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/presentations.png">
