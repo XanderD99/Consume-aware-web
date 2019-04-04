@@ -3,7 +3,7 @@ include_once("../head.php");
 
 ?>
 <main class="container">
-  <h1>Study material</h1>
+  <h1>Study Module</h1>
   <div class="divider"></div>
   <br />
   <div class="section row center-align">
