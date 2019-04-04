@@ -62,10 +62,48 @@ include_once('../head.php');
 
 			<h5>National Level</h5>
 			<ul class="list">
-				<li class="list-item"></li>
-				<li class="list-item"></li>
-				<li class="list-item"></li>
-				<li class="list-item"></li>
+				<li class="list-item">
+					<a 
+						href="https://www.unibuc.ro/2018/patra-prezenta-universitatii-din-bucuresti-la-proiectul-european-strategic-erasmus-cu-titlul-consume-aware/"
+						target="_blank"
+						>Unibuc</a
+					>
+				</li>
+				<li class="list-item">
+					<a 
+						href="https://www.agerpres.ro/comunicate/2017/01/27/comunicat-de-presa-universitatea-din-bucuresti-11-48-34"
+						target="_blank"
+						>Agerpress</a
+						>
+				</li>
+				<li class="list-item">
+					<a 
+						href="http://www.amosnews.ro/universitatea-din-bucuresti-prezenta-activa-proiectul-european-parteneriat-strategic-erasmus-cu-2017"
+						target="_blank"
+						>Amos news</a
+						>
+				</li>
+				<li class="list-item">
+					<a 
+						href="http://www.palo.ro/a/comunicat-de-pres%C4%83-universitatea-din-bucure%C8%99ti-464841"
+						target="_blank"
+						>Palo</a
+						>
+				</li>
+				<li class="list-item">
+					<a 
+						href="https://www.facebook.com/isikinternational/?hc_ref=SEARCH&amp;fref=nf"
+						target="_blank"
+						>www.facebook.com</a
+						>
+				</li>
+				<li class="list-item">
+					<a 
+						href="http://www.edumanager.ro/universitatea-din-bucuresti-partenera-intr-un-proiect-erasmus-plus-dedicat-studiului-experientelor-de-consum-din-spatiul-european/"
+						target="_blank"
+						>Edumanager</a
+						>
+				</li>
 			</ul>
 
 			<h5>International Level</h5>
