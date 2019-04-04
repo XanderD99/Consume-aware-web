@@ -18,7 +18,13 @@ switch($_GET['school']) {
     case 'iae': 
         include_once('iae.php');
     break;
+    case 'howest': 
+        include_once('howest.php');
+    break;
+    case 'trento':
+        include_once('trento.php');
+    break;
     default:
-        echo 'nothing to display';
+        header('Location: /about-us');
     break;
 }

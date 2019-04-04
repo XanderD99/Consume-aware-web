@@ -64,7 +64,7 @@ p {
 }
 
 .list-item::before {
-	content: '-';
+	content: '';
 	margin-right: 0.5rem;
 }
 
