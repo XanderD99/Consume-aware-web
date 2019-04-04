@@ -8,7 +8,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/goals.png">
-                    <span class="card-title">Goals</span>
+                    <span class="card-title motto">Goals</span>
                 </div>
             </div>
         </a>
@@ -17,7 +17,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/outcomes.png">
-                    <span class="card-title">Outcomes</span>
+                    <span class="card-title motto">Outcomes</span>
                 </div>
             </div>
         </a>
@@ -26,7 +26,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/structure.png">
-                    <span class="card-title">Organisational structure</span>
+                    <span class="card-title motto">Organisational structure</span>
                 </div>
             </div>
         </a>
@@ -35,7 +35,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/meeting.png">
-                    <span class="card-title">Transnational meetings</span>
+                    <span class="card-title motto">Transnational meetings</span>
                 </div>
             </div>
         </a>
@@ -44,7 +44,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/Dissemination.png">
-                    <span class="card-title">Dissemination</span>
+                    <span class="card-title motto">Dissemination</span>
                 </div>
             </div>
         </a>
@@ -53,7 +53,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/presentations.png">
-                    <span class="card-title">Presentations</span>
+                    <span class="card-title motto">Presentations</span>
                 </div>
             </div>
         </a>
@@ -62,7 +62,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/erasmus.png">
-                    <span class="card-title">Erasmus +</span>
+                    <span class="card-title motto">Erasmus +</span>
                 </div>
             </div>
         </a>
@@ -71,7 +71,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image cyan">
                     <img src="/assets/images/partnership.png">
-                    <span class="card-title">Erasmus strategic partnership</span>
+                    <span class="card-title motto">Erasmus strategic partnership</span>
                 </div>
             </div>
         </a>
