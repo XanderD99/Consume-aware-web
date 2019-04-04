@@ -17,6 +17,10 @@ class Pdf {
 
     display() {
         PDFObject.embed(this.location,"#pdfviewer");
+        document.getElementById("title").innerHTML = this.title;
+        let download = document.getElementById("down");
+        download.href = this.download;
+        download.download = this.title;
     }
 
     getId() {

@@ -31,7 +31,7 @@ function selectFile() {
 
     let displayed = part.getChapter(chapterId).getFile(fileId);
 
-    PDFObject.embed(displayed.location,"#pdfviewer");
+    displayed.display();
 
 }
 

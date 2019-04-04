@@ -16,7 +16,9 @@ class Video {
     }
 
     display() {
-        PDFObject.embed(this.location,"#pdfviewer");
+        DFObject.embed(this.location,"#pdfviewer");
+        document.getElementById("title").innerHTML = this.title;
+
     }
 
     getId() {
