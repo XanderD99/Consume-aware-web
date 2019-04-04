@@ -34,7 +34,7 @@ include_once("head.php");
 
 	<div class="row">
 		<a href="/about-us/">
-			<div class="col s12 centeredConsumeAwareLogo">
+			<div class="col l12 centeredConsumeAwareLogo">
 				<div class="col m4">
 					<img src="./assets/images/consumeAwareLogo.png" alt="Consume aware logo" class="col s12">
 				</div>
