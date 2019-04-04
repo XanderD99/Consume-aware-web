@@ -55,9 +55,7 @@ if (isset($_POST["name"])) {
 					</div>
 				</div>
 				<div class="row">
-					<div class="input-field col s12">
-						<input type="submit" class="btn waves-effect waves-light cyan" id="submitButton" value="Send">
-					</div>
+						<input type="submit" class="cyan submitButton" value="Send">
 				</div>
 			</form>
 		</main>
