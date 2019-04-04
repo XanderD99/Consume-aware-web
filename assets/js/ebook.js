@@ -5,6 +5,10 @@ let parts = [
     {number: 2, title: "Part 2 title"}
 ];
 
+let chapter = [
+    {number: 1, title: "Chapter title"}
+];
+
 
 let pdfs = [
     {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
@@ -41,12 +45,21 @@ function init(){
     PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
 }
 
-function setPdf() {
+function clickButton() {
     let chapter = this.getAttribute("data-chapter");
     let file = this.getAttribute("data-file");
+    setPdf(chapter);
+
+}
+
+function setPdf(chapter) {
     let pdf = getPdf(chapter);
     document.getElementById("title").innerHTML = pdf.title;
     PDFObject.embed(pdf.location,"#pdfviewer");
+}
+
+function setProgressBar(chapter) {
+    let percent =
 }
 
 function getPart(number) {
