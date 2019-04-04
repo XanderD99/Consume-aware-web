@@ -10,6 +10,13 @@
     In offering career training dedicated to management, IAE Savoie Mont Blanc combines excellent teaching with access to the professional world. Due to its appealing geographic location (cross-border) and territorial dynamics, IAE has long benefitted from a programme that is open to international and differentiated (tourism, hospitality, event management) interests, spanning the vast range of regional training in management.
 </p>
 
+<p>Our <a href="http://www.iqe.univ-smb.fr" target="_blank" rel="noopener noreferrer">website.</a></p>
+
+<h4>Adress</h4>
+<p>4 Chemin de Bellevue <br>
+BP 80439 Annecy-le-Vieux <br>
+74944 Annecy</p>
+
 <h4>Our motto</h4>
 <p>Choosing Savoie Mont Blanc University is to put on its side all the chances of success and personal development.</p>
 
