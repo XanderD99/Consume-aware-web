@@ -1,11 +1,4 @@
-<div class="row">
-    <div class="picture">
-        <img class="img-fluid" src="/assets/images/people/marta-grybs.png">
-    </div>
-
-    <p>University of Economics in Katowice</p>
-    <a href="marta.grybs@ue.katowice.pl">marta.grybs@ue.katowice.pl</a>
-</div>
+<h2>Marta Grybs</h2>
 
 <h4>Academic profile</h4>
 <p>Research Assistant in Department of Consumption Research.</p>

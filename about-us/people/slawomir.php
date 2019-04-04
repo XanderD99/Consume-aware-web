@@ -1,12 +1,4 @@
-<div class="row">
-    <div class="picture">
-        <img class="img-fluid" src="/assets/images/people/slawomir-smyczek.png">
-    </div>
-
-    <p>University of Economics in Katowice</p>
-    <a href="mailto:%20slawomir.smyczek@ue.katowice.pl">slawomir.smyczek@ue.katowice.pl</a>
-    <a href="http://%20www.slawomirsmyczek.pl">slawomir.smyczek@ue.katowice.pl</a>
-</div>
+<h2>Slawomir Smyczek</h2>
 
 <h4>Academic profile</h2>
 <p>Professor of Marketing at the Faculty of Management, having an experience of more than 20 years of teaching and research. He is involved in higher education projects management for more than 10 years. Vice-Rector for Education and Internationalization since 2016</p>

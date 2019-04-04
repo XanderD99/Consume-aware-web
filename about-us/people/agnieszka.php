@@ -1,11 +1,4 @@
-<div>
-    <div class="picture">
-        <img class="img-fluid" src="/assets/images/people/agnieszka-tetla.png">
-    </div>
-
-    <p></p>
-    <a href="agnieszka.marie@gmail.com">agnieszka.marie@gmail.com</a>
-</div>
+<h2>Agnieszka Tetla</h2>
 
 <h4>Academic profile</h4>
 <p>PhD student at the Department of Consumption Research at the University of Economics in Katowice. Master degree both in Accounting and Finance, and Management (International Business).</p>
