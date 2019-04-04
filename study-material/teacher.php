@@ -7,14 +7,14 @@ include "../head.php";
 <div id="teacherSub" class="center-align">
   <div class="button-container">
     <div class="row" class="button-row">
-    <a href="#"><button id="instruction" class="waves-effect waves-teal cyan btn-large study-button">instruction</button></a>
-    <a href="#"><button id="book" class="waves-effect waves-teal  btn-large study-button">Book</button></a>
-    <a href="#"><button id="app" class="waves-effect waves-teal  btn-large study-button">App</button></a>
+    <a href="instruction.php"><button id="instruction" class="waves-effect waves-teal cyan btn-large study-button">instruction</button></a>
+    <a href="project-presentation.php"><button id="book" class="waves-effect waves-teal  btn-large study-button">Project presentation</button></a>
+    <a href="syllabus.php"><button id="app" class="waves-effect waves-teal  btn-large study-button">Syllabus</button></a>
     </div>
     <div id="row" class="button-row">
-        <a href="#"><button id="part1" class="waves-effect waves-teal  btn-large study-button">part1</button></a>
-        <a href="#"><button id="part2" class="waves-effect waves-teal  btn-large study-button">part2</button></a>
-        <a href="#"><button id="part3" class="waves-effect waves-teal  btn-large study-button">part3</button></a>
+        <a href="textbook.php"><button id="part1" class="waves-effect waves-teal  btn-large study-button">Textbook</button></a>
+        <a href="app.php"><button id="part2" class="waves-effect waves-teal  btn-large study-button">App</button></a>
+        <a href="lectures.php"><button id="part3" class="waves-effect waves-teal  btn-large study-button">Lectures</button></a>
     </div>
   </div>
 

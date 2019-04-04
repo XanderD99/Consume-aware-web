@@ -250,6 +250,14 @@ p {
 	align-items: center;
 }
 
+.ConsumeAwareTitle {
+	font-size: 6rem;
+}
+
+.ConsumeAwareSubtext {
+	font-size: 2rem;
+}
+
 .navigation {
 	display: flex;
 	justify-content: center;
