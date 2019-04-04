@@ -16,10 +16,8 @@
     </div>
 </div>
 <h4>Area of interest</h4>
-<p>
-(Mobile) Web Applications
-Analysis and development of business applications
-Building bridges between IT and the Business
-</p>
+<p>(Mobile) Web Applications Analysis and development of business applications Building bridges between IT and the Business</p>
+<h4>Recent publications</h4>
+<p>-</p>
 <h4>Message for students</h4>
 <p class="motto">Tackle problems one at a time.</p>
