@@ -68,7 +68,7 @@
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/frederic-vlummens.png">
+                <img class="img-fluid" src="/assets/images/people/frederic.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Frederic Vlummens</h3>
@@ -83,7 +83,7 @@
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/corneel-theben-terville.png">
+                <img class="img-fluid" src="/assets/images/people/theben.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Corneel Theben Terville</h3>
@@ -98,7 +98,7 @@
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/lieven-theys.png">
+                <img class="img-fluid" src="/assets/images/people/lieven.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Lieven Theys</h3>
