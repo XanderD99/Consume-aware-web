@@ -1,0 +1,11 @@
+.study-button{
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    margin: 10px 10px 0 10px;
+    font-size: 1.4rem;
+}
+
+.logout-btn{
+    margin-top: 100px;
+}

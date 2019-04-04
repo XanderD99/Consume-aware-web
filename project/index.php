@@ -26,7 +26,7 @@ include_once("../head.php");
             <div class="card hoverable">
                 <div class="card-image">
                     <img  src="/assets/images/structure.png">
-                    <span class="card-title black-text">Organizational structure</span>
+                    <span class="card-title black-text">Organisational structure</span>
                 </div>
             </div>
         </a>
@@ -52,8 +52,8 @@ include_once("../head.php");
         <a href="/project/powerpoints.php" class="col s12 m6 l6 xl3">
             <div class="card hoverable">
                 <div class="card-image cyan">
-                    <img src="/assets/images/report.png">
-                    <span class="card-title black-text">Powerpoints</span>
+                    <img src="/assets/images/presentations.png">
+                    <span class="card-title black-text">Presentations</span>
                 </div>
             </div>
         </a>

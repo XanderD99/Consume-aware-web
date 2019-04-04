@@ -26,8 +26,8 @@
 			<div class="footer-copyright">
 				<div class="container">
 					Copyright © 2019 Consume Aware. All Rights Reserved
-					<a class="grey-text text-lighten-4 right" href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en">
-						ERASMUS+
+					<a class="grey-text text-lighten-4 right" href="https://ec.europa.eu/programmes/erasmus-plus/programme-guide/part-a_en" target="_blank">
+					<img src="/assets/images/erasmusFundedLogo.jpg" alt="Project funded by Erasmus+" width="250px"> 
 					</a>
 				</div>
 			</div>

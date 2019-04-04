@@ -1,5 +1,8 @@
 <?php 
-switch($_GET['school']) {
+
+isset($_GET['school']) ? $string = $_GET['school'] : header('Location: /about-us');
+
+switch($string) {
     case 'uekatowice':
         include_once('uekatowice.php');
     break;
@@ -10,7 +13,7 @@ switch($_GET['school']) {
         include_once('bge.php');
     break;
     case 'bucarest':
-        include_once('bucarest.php');
+        include_once('bucharest.php');
     break;
     case 'isik':
         include_once('isik.php');

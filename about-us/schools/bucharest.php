@@ -21,7 +21,7 @@
             </div>
             <div class="team-content">
                 <h5 class="name">Magdalena Iordache-Platis</h3>
-                    <h6 class="title">University of Bucharest</h4>
+                <h6 class="title">University of Bucharest</h4>
             </div>
             <ul class="social">
                 <li><a href="mailto:magdalena.iordache-platis@unibuc.ro">mail</a></li>
