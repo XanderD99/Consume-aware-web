@@ -17,7 +17,11 @@ class Ppt {
     }
 
     display() {
-        PDFObject.embed(this.location,"#pdfviewer");
+        DFObject.embed(this.location,"#pdfviewer");
+        document.getElementById("title").innerHTML = this.title;
+        let downloadd = document.getElementById("down");
+        downloadd.href = this.download;
+        download.download = this.title;
     }
 
     getId() {
