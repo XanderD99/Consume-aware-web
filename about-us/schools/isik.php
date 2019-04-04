@@ -20,7 +20,7 @@ Meşrutiyet Mahallesi, Işık Ünv., <br>
                     <h6 class="title">IŞIK University</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:gamze.karayaz@isikun.edu.tr">mail</a></li>
                 <li><a href="/about-us/detail.php?name=gamze">Read more</a></li>
             </ul>
         </div>

@@ -22,7 +22,7 @@ Kampusranta 11, <br>
                     <h6 class="title">SeAMK</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:marja.salonen@seamk.fi">mail</a></li>
                 <li><a href="/about-us/detail.php?name=marja">Read more</a></li>
             </ul>
         </div>
@@ -37,7 +37,7 @@ Kampusranta 11, <br>
                     <h6 class="title">SeAMK</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:petra.sippola@seamk.fi">mail</a></li>
                 <li><a href="/about-us/detail.php?name=petra">Read more</a></li>
             </ul>
         </div>
@@ -68,7 +68,7 @@ Kampusranta 11, <br>
                     <h6 class="title">SeAMK</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:ville-pekka.makelainen@seamk.fi">mail</a></li>
                 <li><a href="/about-us/detail.php?name=ville-pekka">Read more</a></li>
             </ul>
         </div>

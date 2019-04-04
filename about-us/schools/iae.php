@@ -32,7 +32,7 @@ BP 80439 Annecy-le-Vieux <br>
                     <h6 class="title">Université Savoie Mont Blanc</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:sgana@univ-smb.fr">mail</a></li>
                 <li><a href="/about-us/detail.php?name=stephane">Read more</a></li>
             </ul>
         </div>
