@@ -61,12 +61,12 @@ header img {
 
 aside {
 	/*flex-direction: row;*/
-	background-color: #dcdcdc;
+	background-color: #f6f6f6;
 	min-height: 100%;
 	max-height: 90vh;
 	border: 1px solid rgba(0,0,0,.1);
 	overflow-y: scroll;
-	min-width: 25%;
+	min-width: 20%;
 	/*background-color: gold;*/
 }
 
@@ -79,9 +79,9 @@ aside {
 li h3{
 	/*width: 100%;*/
 	padding-left: 5%;
-	background-color: #a2a2a2;
+	background-color: #e4e4e4;
 	font-size: 1.25rem;
-	color: white;
+	color: black;
 	margin-bottom: 20px;
 	margin-top: 20px;
 
@@ -206,4 +206,7 @@ footer .container {
 	padding-top: 3%;
 	padding-right: 0;
 
+}
+.nav_pdf{
+	margin-left: 10px;
 }
