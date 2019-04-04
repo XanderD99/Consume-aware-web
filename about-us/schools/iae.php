@@ -25,7 +25,7 @@ BP 80439 Annecy-le-Vieux <br>
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/stephane-ganassali.png">
+                <img class="img-fluid" src="/assets/images/people/stephane.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Stéphane Ganassali</h3>

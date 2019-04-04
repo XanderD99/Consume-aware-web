@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	const test = M.Carousel.init(elem, {
 		fullWidth: true,
 		indicators: true,
-		numVisible: 3,
     });
     
     qs('#right').addEventListener('click', e => {test.next()});

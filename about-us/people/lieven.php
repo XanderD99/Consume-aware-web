@@ -5,7 +5,7 @@
     <div class="">
         <div class="row valign-wrapper">
             <div class="col s2 center">
-                <img height="125" width="125" src="/assets/images/people/lieven-theys.png" alt="Lieven Theys" class="circle responsive-img"> <!-- notice the "circle" class -->
+                <img height="125" width="125" src="/assets/images/people/lieven.png" alt="Lieven Theys" class="circle responsive-img"> <!-- notice the "circle" class -->
             </div>
             <div class="col s10">
                 <span class="black-text">
