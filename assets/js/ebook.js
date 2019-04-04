@@ -5,16 +5,16 @@ let parts = [
     {number: 2, title: "Part 2 title"}
 ];
 
-let chapter = [
+let chapters = [
     {number: 1, title: "Chapter title"}
 ];
 
 
 let pdfs = [
-    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/A title.pdf", download:"assets/pdf/A title.pdf"},
-    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/Life is good.pdf", download:"assets/pdf/Life is good.pdf"},
-    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"},
-    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/opgave.pdf", download:"assets/pdf/opgave.pdf"}
+    {chapter:1, part:getPart(1), title:"Titel 1", location:"assets/pdf/3_Understanding-the-Market-and-Companies-Behavior.pdf", download:"assets/pdf/A title.pdf"},
+    {chapter:2, part:getPart(1), title:"Titel 2", location:"assets/pdf/e-chapter9.pdf", download:"assets/pdf/Life is good.pdf"},
+    {chapter:3, part:getPart(2), title:"Titel 3", location:"assets/pdf/New_e-book_chapter_VI.pdf", download:"assets/pdf/opgave.pdf"},
+    {chapter:4, part:getPart(2), title:"Titel 4", location:"assets/pdf/Unit_1_Understanding_Consumer_Behavior_Agnieszka_Tetla.pdf", download:"assets/pdf/opgave.pdf"}
 ];
 
 let ppts = [
@@ -56,7 +56,7 @@ function init(){
     generateAside();
     let buttons = document.getElementsByClassName("logobtn");
     for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', setPdf, false)
+        buttons[i].addEventListener('click', clickButton, false)
     }
 
     PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
@@ -65,18 +65,22 @@ function init(){
 function clickButton() {
     let chapter = this.getAttribute("data-chapter");
     let file = this.getAttribute("data-file");
+    console.log(chapter);
     setPdf(chapter);
+    setProgressBar(chapter);
 
 }
 
 function setPdf(chapter) {
     let pdf = getPdf(chapter);
+
     document.getElementById("title").innerHTML = pdf.title;
     PDFObject.embed(pdf.location,"#pdfviewer");
 }
 
 function setProgressBar(chapter) {
-    //let percent =
+    let percent = (chapter/chapters.length)*100;
+    document.getElementById("progress").style.width = percent;
 }
 
 function getPart(number) {
