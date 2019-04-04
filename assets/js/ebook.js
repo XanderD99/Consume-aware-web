@@ -26,9 +26,11 @@ function selectFile() {
     let fileId = parseInt(this.getAttribute("data-file"));
 
     let part = parts.filter(part => part.getId() === partId)[0];
+    console.log(part);
     let chapter = part.getChapter(chapterId);
+    console.log(chapter);
     let file = chapter.getFile(fileId);
-
+    console.log(file);
     let displayed = part.getChapter(chapterId).getFile(fileId);
 
     displayed.display();

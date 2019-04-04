@@ -43,15 +43,17 @@ class Chapter {
 
     getFile(id) {
         id = parseInt(id);
-        if(this.pdfs.filter(pdf => parseInt(pdf.getId()) === id)[0] !== null) {
+        if(this.pdfs.filter(pdf => parseInt(pdf.getId()) === id).length > 0) {
             return this.pdfs.filter(pdf => parseInt(pdf.getId()) === id)[0]
         }
 
-        if(this.ppts.filter(ppt => parseInt(ppt.getId()) === id)[0] !== null) {
+        if(this.ppts.filter(ppt => parseInt(ppt.getId()) === id).length > 0) {
             return this.ppts.filter(ppt => parseInt(ppt.getId())=== id)[0]
         }
-        if(this.videos.filter(video => parseInt(video.getId()) === id)[0] !== null) {
-            return this.videos.filter(video => parseInt(video.getId()) === id)[0]
+
+        if(this.videos.filter(video => parseInt(video.getId()) === id).length > 0) {
+            return this.videos.filter(video => parseInt(video.getId())=== id)[0]
         }
+
     }
 }

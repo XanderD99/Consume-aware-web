@@ -21,9 +21,14 @@ class Pdf {
         let download = document.getElementById("down");
         download.href = this.download;
         download.download = this.title;
+
+        document.getElementById("video").style.display="none";
+        document.getElementById("down").style.display="inline";
+        document.getElementById("pdfviewer").style.display="inline"
     }
 
     getId() {
         return this.id;
     }
+
 }

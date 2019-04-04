@@ -22,9 +22,15 @@ class Ppt {
         let downloadd = document.getElementById("down");
         downloadd.href = this.download;
         download.download = this.title;
+
+        document.getElementById("video").style.display="none";
+        document.getElementById("down").style.display="inline";
+        document.getElementById("pdfviewer").style.display="inline"
+
     }
 
     getId() {
         return this.id;
     }
+
 }
