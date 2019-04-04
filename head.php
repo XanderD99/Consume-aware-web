@@ -35,7 +35,7 @@
 	<body>
 		<nav class="cyan">
 			<div class="nav-wrapper px-4">
-				<a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
+				<a href="/" class="brand-logo"> <img src="/assets/images/logo.png" height="60" alt="logo"> </a>
 				<a href="#" data-target="mobile-demo" class="sidenav-trigger"
 					><i class="material-icons">menu</i>
 					</a>
