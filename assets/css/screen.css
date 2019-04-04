@@ -238,3 +238,12 @@ p {
 	display: flex;
 	align-items: center;
 }
+
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+
+.navigation button:first-of-type {
+	margin-right: 10px;
+}
