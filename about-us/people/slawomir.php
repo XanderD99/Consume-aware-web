@@ -1,4 +1,4 @@
-<h2>Slawomir Smyczek</h2>
+<h2>S&#322;awomir Smyczek</h2>
 
 <h4>Academic profile</h2>
     <div class="col s12 m8 offset-m2 l6 offset-l3">
