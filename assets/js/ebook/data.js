@@ -226,49 +226,49 @@ let data_ppts = [
 
 let data_videos = [
     {
-        id: 1,
+        id: 23,
         chapter: 1,
         part: 1,
         title: "The psychology behind irrational decisions - Sara Garofalo",
         location: "https://www.youtube.com/embed/V2EMuoM5IX4"
     },
     {
-        id: 2,
+        id: 24,
         chapter: 2,
         part: 1,
         title: "The importance of studying consumer behavior",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 3,
+        id: 25,
         chapter: 3,
         part: 1,
         title: "Consumer protection - why it matters to you",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 4,
+        id: 26,
         chapter: 4,
         part: 2,
         title: "About the world's most ethical companies",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 5,
+        id: 27,
         chapter: 5,
         part: 2,
         title: "Huggy met votre famille sur écoute",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 6,
+        id: 28,
         chapter: 5,
         part: 2,
         title: "Huggybug your family today': don't play around with children's online safety",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 7,
+        id: 29,
         chapter: 5,
         part: 2,
         title: "Safety and welfare for the food chain",
@@ -276,37 +276,37 @@ let data_videos = [
     },
 
     {
-        id: 8,
+        id: 30,
         chapter: 7,
         part: 3,
         title: "Consumer rights: EU presentation",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 9,
+        id: 31,
         chapter: 7,
         part: 3,
         title: "Question on your rights in Europe, complaint against a European trader: contact the ECC network",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
-    { id: 10, chapter: 7, part: 3, title: "Consumer rights", location: "https://www.youtube.com/embed/mvuPvAmNItQ"},
+    { id: 32, chapter: 7, part: 3, title: "Consumer rights", location: "https://www.youtube.com/embed/mvuPvAmNItQ"},
     {
-        id: 11,
+        id: 33,
         chapter: 7,
         part: 3,
         title: "Online dispute resolution: fast, fair & convenient",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
-    {id: 12, chapter: 10, part: 3, title: "EU trade policy explained", location: "https://www.youtube.com/embed/IiOC5XG2I5Y"},
+    {id: 34, chapter: 10, part: 3, title: "EU trade policy explained", location: "https://www.youtube.com/embed/IiOC5XG2I5Y"},
     {
-        id: 13,
+        id: 35,
         chapter: 11,
         part: 3,
         title: "European Consumer Center (ECC)",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 14,
+        id: 36,
         chapter: 12,
         part: 3,
         title: "The 11 UN consumer protection guidelines",
@@ -314,21 +314,21 @@ let data_videos = [
     },
 
     {
-        id: 15,
+        id: 37,
         chapter: 0,
         part: 0,
         title: "Protecting European consumers",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 16,
+        id: 38,
         chapter: 0,
         part: 0,
         title: "Greening the economy: lessons from Scandinavia",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
     {
-        id: 17,
+        id: 39,
         chapter: 0,
         part: 0,
         title: "Tax and VAT issues when trading with countries in the EU",
