@@ -59,7 +59,7 @@ function setPdf(chapter) {
 }
 
 function setProgressBar(chapter) {
-    let percent =
+    //let percent =
 }
 
 function getPart(number) {
