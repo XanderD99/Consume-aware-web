@@ -20,6 +20,8 @@
 		/>
 
 		<link rel="stylesheet" href="/assets/css/screen.css" />
+		<link rel="stylesheet" href="/assets/css/study-materials.css" />
+
 
 		<!-- Font Awesome-->
 		<link
