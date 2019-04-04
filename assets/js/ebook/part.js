@@ -13,7 +13,7 @@ class Part {
         let html = "";
 
         html += "<li>";
-        html += "<h2 Part "+ this.number + ": " + this.title + "</h2>";
+        html += "<h2 id='color" + this.number + "'> Part "+ this.number + ": " + this.title + "</h2>";
         html += "<ul>";
         this.chapters.forEach(chapter => {
             html += chapter.getHtml(this.number);

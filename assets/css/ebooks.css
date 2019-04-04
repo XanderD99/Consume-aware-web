@@ -185,9 +185,15 @@ em {
 /************/
 
 
-
-
-
+#color1{
+	color:#FECB01;
+}
+#color2{
+	color:#FF7B00;
+}
+#color3{
+	color:#FF3C00;
+}
 main {
 	min-width: 75%;
 	padding: 0!important;
@@ -229,3 +235,4 @@ footer .container {
 .nav_pdf{
 	margin-left: 10px;
 }
+

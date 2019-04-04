@@ -29,7 +29,7 @@ class Chapter {
 
 
 
-    public addPdf(pdf) {
+    addPdf(pdf) {
         this.pdfs.push(pdf);
     }
 

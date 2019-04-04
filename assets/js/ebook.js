@@ -6,8 +6,7 @@ let parts = [];
 
 function init(){
 
-    generateParts();
-
+    //generateParts();
 
     let pdf2 = new Pdf(2, "second title","","");
     let pdf = new Pdf(1, "just a title", "loc", "loc");
@@ -29,9 +28,6 @@ function init(){
     part.addChapter(chap2);
     parts.push(part);
     parts.push(part2);
-
-
-
 
     generateAside();
     setFileClickListeners();
