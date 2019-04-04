@@ -5,6 +5,10 @@ class Part {
         this.chapters = [];
     }
 
+    getId(){
+        return this.number;
+    }
+
     getHtml(){
         let html = "";
         html += "<li>";
@@ -20,6 +24,10 @@ class Part {
 
     addChapter(chapter) {
         this.chapters.push(chapter);
+    }
+
+    getChapter(id) {
+        return this.chapters.filter(chapter => chapter.number === id)[0];
     }
 
 }

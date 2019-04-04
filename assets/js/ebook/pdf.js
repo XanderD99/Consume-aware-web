@@ -15,4 +15,12 @@ class Pdf {
         html += "</li>";
         return html;
     }
+
+    display() {
+        PDFObject.embed(this.location,"#pdfviewer");
+    }
+
+    getId() {
+        return this.id;
+    }
 }

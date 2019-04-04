@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', init);
 let parts = [];
 
 function init(){
-    let pdf2 = new Pdf(2, "second title","","");
-    let pdf = new Pdf(1, "just a title", "loc", "loc");
+    let pdf2 = new Pdf(2, "second title","assets/pdf/3_Understanding-the-Market-and-Companies-Behavior.pdf","");
+    let pdf = new Pdf(1, "just a title", "assets/pdf/e-chapter9.pdf", "loc");
     let chap = new Chapter(1, "chapter title");
     chap.addPdf(pdf);
     chap.addPdf(pdf2);
@@ -15,21 +15,35 @@ function init(){
     part.addChapter(chap);
     parts.push(part);
     parts.push(part2);
+
+
+
+
     generateAside();
-    let buttons = document.getElementsByClassName("logobtn");
-    for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', clickButton, false)
-    }
+    setFileClickListeners();
 
     //PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
 }
 
-function clickButton() {
-    let chapter = this.getAttribute("data-chapter");
-    let file = this.getAttribute("data-file");
-    console.log(chapter);
-    setPdf(chapter);
-    setProgressBar(chapter);
+function setFileClickListeners() {
+    let buttons = document.getElementsByClassName("file");
+    for(var i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', selectFile, false);
+    }
+}
+
+function selectFile() {
+    let partId = parseInt(this.getAttribute("data-part"));
+    let chapterId = parseInt(this.getAttribute("data-chapter"));
+    let fileId = parseInt(this.getAttribute("data-file"));
+
+    let part = parts.filter(part => part.getId() === partId)[0];
+    let chapter = part.getChapter(chapterId);
+    let file = chapter.getFile(fileId);
+
+    let displayed = part.getChapter(chapterId).getFile(fileId);
+
+    PDFObject.embed(displayed.location,"#pdfviewer");
 
 }
 
@@ -72,10 +86,3 @@ function getPartAttribute() {
     }
     return null;
 }
-
-
-
-
-
-
-
