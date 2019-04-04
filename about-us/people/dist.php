@@ -41,6 +41,18 @@ switch ($string) {
     case 'gamze': 
         include_once('gamze.php');
         break;
+    case 'marja': 
+        include_once('marja.php');
+        break;
+    case 'petra': 
+        include_once('petra.php');
+        break;
+    case 'ville-pekka': 
+        include_once('ville-pekka.php');
+        break;
+    case 'italo': 
+        include_once('italo.php');
+        break;
     default:
         header('Location: /about-us');
         break;
