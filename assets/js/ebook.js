@@ -81,30 +81,11 @@ function clickButton() {
 
 }
 
-function setPdf(chapter) {
-    let pdf = getPdf(chapter);
-
-    document.getElementById("title").innerHTML = pdf.title;
-    PDFObject.embed(pdf.location,"#pdfviewer");
-}
-
 function setProgressBar(chapter) {
     let percent = (chapter/chapters.length)*100;
     document.getElementById("progress").style.width = percent+"%";
 }
 
-function getPart(number) {
-    return parts.filter(part => part.number === number)[0]
-}
-
-function getPdfs(part) {
-    return pdfs.filter(pdf => pdf.part.number === part.number);
-
-}
-
-function getPdf(chapter) {
-    return pdfs.filter(pdf => pdf.chapter === parseInt(chapter))[0];
-}
 
 function generateAside(){
     let part = getPartAttribute();
@@ -140,32 +121,9 @@ function getPartAttribute() {
     return null;
 }
 
-//////
-////// HTML GENERATORS
-//////
 
-function getPartHtml(part){
-    let html = "";
-    html += "<li>";
-    html += "<h2>Part "+ part.number + ": " + part.title + "</h2>";
-    html += "<ul>";
-    getPdfs(part).forEach(pdf => {
-        html += getPdfHtml(pdf)
-    });
-    html += "</ul>";
-    html += "</li>";
-    return html;
-}
 
-function getSectionHtml(section) {
-    let html = "";
-}
 
-function getPdfHtml(pdf){
-    let html = "";
-    html += "<li>";
-    html += "<h3>"+ pdf.chapter + ". " + pdf.title + "</h3>";
-    html += "<li id='nav_pdf'>"+ pdf.title +" pdf :"+" <img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton' data-chapter='"+ pdf.chapter +"' data-file='pdf'></li>"+"<li id='nav_powerpoint'>"+ pdf.title +"<img src='assets/images/powerpoint.png' class='logobtn' alt='pttbutton' data-chapter='"+ pdf.chapter +"' data-file='ppt'/></li>";
-    html += "</li>";
-    return html;
-}
+
+
+
