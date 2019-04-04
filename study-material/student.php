@@ -13,7 +13,7 @@ include_once "../head.php";
     <div class="row">
     <a href="#"><button id="presentationStudent" class="waves-effect waves-teal btn-large study-button">Presentations</button></a>
     <a href="#"><button id="e-bookStudent" class="waves-effect waves-teal btn-large study-button">E-book</button></a>
-    <a href="#"><button id="practialStudent" class="waves-effect waves-teal btn-large study-button">Practical case</button></a>
+    <a href="case-studies.php"><button id="practialStudent" class="waves-effect waves-teal btn-large study-button">Practical case</button></a>
     </div>
   </div>
   <!-- <script src="/assets/js/study-material/student.js"></script> -->
