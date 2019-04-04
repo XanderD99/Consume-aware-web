@@ -25,52 +25,211 @@ let data_pdfs = [
         chapter: 1,
         part: 1,
         title: "Understanding consumer behavior",
-        location: "assets/pdf/Part1_Chapter1.pdf",
-        download: "assets/pdf/Part1_Chapter1.pdf"
-    },
-    {
-        id: 3,
-        chapter: 3,
-        part: 1,
-        title: "Customer awareness importance",
-        location: "assets/pdf/Part1_Chapter3.pdf",
-        download: "assets/pdf/Part1_Chapter3.pdf"
-    }
-];
-
-/*nog geen actuele data*/
-let data_ppts = [
-    {
-        id: 1,
-        chapter: 1,
-        part: 1,
-        title: "Titel 1",
-        location: "assets/pdf/A title.pdf",
-        download: "assets/pdf/A title.pdf"
+        location: "assets/pdf/Part_I.pdf",
+        download: "assets/pdf/Part_I.pdf"
     },
     {
         id: 2,
         chapter: 2,
         part: 1,
-        title: "Titel 2",
-        location: "assets/pdf/Life is good.pdf",
-        download: "assets/pdf/Life is good.pdf"
-    },
+        title: "Understanding consumption and consumer values",
+        location: "assets/pdf/Part_II.pdf",
+        download: "assets/pdf/Part_II.pdf"
+    }
+    ,
     {
         id: 3,
         chapter: 3,
-        part: 2,
-        title: "Titel 3",
-        location: "assets/pdf/opgave.pdf",
-        download: "assets/pdf/opgave.pdf"
-    },
+        part: 1,
+        title: "Customer awareness importance",
+        location: "assets/pdf/Part_III.pdf",
+        download: "assets/pdf/Part_III.pdf"
+    }
+    ,
     {
         id: 4,
         chapter: 4,
         part: 2,
-        title: "Titel 4",
-        location: "assets/pdf/opgave.pdf",
-        download: "assets/pdf/opgave.pdf"
+        title: "Understanding the market and companies' behaviour",
+        location: "assets/pdf/Part_IV.pdf",
+        download: "assets/pdf/Part_IV.pdf"
+    }
+    ,
+    {
+        id: 5,
+        chapter: 5,
+        part: 2,
+        title: "Companies' practices requiring consumers' protection",
+        location: "assets/pdf/Part_V.pdf",
+        download: "assets/pdf/Part_V.pdf"
+    }
+    ,
+    {
+        id: 6,
+        chapter: 6,
+        part: 2,
+        title: "Consumer awareness relevance and strategies: consumer awareness implications on businesses",
+        location: "assets/pdf/Part_VI.pdf",
+        download: "assets/pdf/Part_VI.pdf"
+    }
+    ,
+    {
+        id: 7,
+        chapter: 7,
+        part: 3,
+        title: "Consumer policy on European market: models and organizational structure",
+        location: "assets/pdf/Part_VII.pdf",
+        download: "assets/pdf/Part_VII.pdf"
+    }
+    ,
+    {
+        id: 8,
+        chapter: 8,
+        part: 3,
+        title: "Consumer rights: national and European examples and practices",
+        location: "assets/pdf/Part_VIII.pdf",
+        download: "assets/pdf/Part_VIII.pdf"
+    }
+    ,
+    {
+        id: 9,
+        chapter: 9,
+        part: 3,
+        title: "Customer rights understanding in services sector",
+        location: "assets/pdf/Part_IX.pdf",
+        download: "assets/pdf/Part_IX.pdf"
+    }
+    ,
+    {
+        id: 10,
+        chapter: 10,
+        part: 3,
+        title: "Institutions of consumer rights protection",
+        location: "assets/pdf/Part_X.pdf",
+        download: "assets/pdf/Part_X.pdf"
+    }
+    ,
+    {
+        id: 11,
+        chapter: 11,
+        part: 3,
+        title: "Building customer awareness",
+        location: "assets/pdf/Part_XI.pdf",
+        download: "assets/pdf/Part_XI.pdf"
+    }
+
+
+
+
+];
+
+/*nog geen actuele data*/
+let data_ppts = [
+    {
+        id: 12,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT1_CHPTR1.pdf",
+        download: "assets/pdf/PPT_PRT1_CHPTR1.pptx"
+    },
+    {
+        id: 13,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT1_CHPTR2.pdf",
+        download: "assets/pdf/PPT_PRT1_CHPTR2.pptx"
+    },
+
+    {
+        id: 14,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT1_CHPTR3.pdf",
+        download: "assets/pdf/PPT_PRT1_CHPTR3.pptx"
+    },
+
+    {
+        id: 15,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT2_CHPTR4.pdf",
+        download: "assets/pdf/PPT_PRT2_CHPTR4.pptx"
+    },
+
+    {
+        id: 16,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT2_CHPTR5.pdf",
+        download: "assets/pdf/PPT_PRT2_CHPTR5.pptx"
+    },
+
+    {
+        id: 17,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT2_CHPTR6.pdf",
+        download: "assets/pdf/PPT_PRT2_CHPTR6.pptx"
+    },
+
+    {
+        id: 18,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
+    },
+
+    {
+        id: 19,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
+    },
+
+    {
+        id: 20,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR8.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR8.pptx"
+    },
+
+    {
+        id: 21,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR9.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR9.pptx"
+    },
+
+    {
+        id: 22,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR10.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR10.pptx"
+    },
+
+    {
+        id: 23,
+        chapter: 1,
+        part: 1,
+        title: "Titel 1",
+        location: "assets/pdf/PPT_PRT3_CHPTR11.pdf",
+        download: "assets/pdf/PPT_PRT3_CHPTR11.pptx"
     }
 ];
 
