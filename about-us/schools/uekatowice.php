@@ -6,6 +6,14 @@ Our educational offer and lifelong learning programs attract students from  all 
 The co-operation with foreign countries is one of the most intensively developing activities of the University of Economics in Katowice. The University successfully combines rich tradition with innovative approach to academic challenges in order to strengthen its position of modern research, expertise and education center.
 </p>
 
+<p>Our <a href="http://www.ue.katowice.pl" target="_blank" rel="noopener noreferrer">website.</a></p>
+
+<h4>Adress</h4>
+<p>1 Maja Street 50 <br>
+40-287 Katowice <br>
+Poland
+</p>
+
 <h4>Our motto</h4>
 <p>
     Your place, your space, your future

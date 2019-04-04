@@ -5,12 +5,11 @@
 <h4>Area of interest</h2>
 <p>Consumer behavior, consumption, relationship marketing, services marketing, international marketing,</p>
 <h4>Recent publications</h2>
-<ol>
-    <li class="list-item">Smyczek, S. (ed.), 2017, Challenges for marketing in 21st century. Katowice: University of Economics</li>
-    <li class="list-item">Smyczek, S., Matysiewicz, J., 2016, Model of Customer Behavior Pathologies on Financial Market in Transitional Economies, in: Global Business Research Symposium. Finding Roads to Prosperity, Rome: St. John’s University</li>
-    <li class="list-item">Matysiewicz, J., Smyczek, S., 2016, Knowledge transfer in the networks of international healthcare, Review Of Business, Vol. 37</li>
-    <li class="list-item">Smyczek, S., 2015, Consumer illiteracy as cause of social exclusion on financial market, in: Social exclusions in Europe. Marketing Perspective. Katowice: University of Economics</li>
-    <li class="list-item">Smyczek, S., 2015, New media in higher education and values for students on merging markets, in: New Media in Higher Education Market. Katowice: University of Economics</li>
-</ol>
+<p>Smyczek, S. (ed.), 2017, Challenges for marketing in 21st century. Katowice: University of Economics</p>
+<p>Smyczek, S., Matysiewicz, J., 2016, Model of Customer Behavior Pathologies on Financial Market in Transitional Economies, in: Global Business Research Symposium. Finding Roads to Prosperity, Rome: St. John’s University</p>
+<p>Matysiewicz, J., Smyczek, S., 2016, Knowledge transfer in the networks of international healthcare, Review Of Business, Vol. 37</p>
+<p>Smyczek, S., 2015, Consumer illiteracy as cause of social exclusion on financial market, in: Social exclusions in Europe. Marketing Perspective. Katowice: University of Economics</p>
+<p>Smyczek, S., 2015, New media in higher education and values for students on merging markets, in: New Media in Higher Education Market. Katowice: University of Economics</p>
+
 <h4>Message for students</h2>
-<em>Progress is always better then perfection</em>
+<p>Progress is always better then perfection</p>

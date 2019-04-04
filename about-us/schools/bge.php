@@ -14,6 +14,13 @@
 <p>BBS has become an integral part of international higher education and research. We have professional connections with more than 200 institutes of higher education in 46 countries. The various study trips, student and staff exchanges, joint research and educational programmes make it possible for the participating parties to share experiences and to adopt new teaching methods, materials, and technologies. BBS is member in the following international organisations: EUA, EURASHE, EDEN, IAU. It is also worth mentioning that our graduates often find employment with foreign businesses or multinational companies.</p>
 
 <p>Both in initial education and continuing trainings BBS started to introduce innovative curricula for entrepreneurs. BBS participates in several international projects. </p>
+<p>Our <a href="http://en.uni-bge.hu" target="_blank" rel="noopener noreferrer">website.</a></p>
+
+<h4>Adress</h4>
+<p>
+Budapest, Buzogány u. 10-12., <br>
+1149 Hungary
+</p>
 
 <h4>Our moto</h4>
 <p>For A Better Future</p>
