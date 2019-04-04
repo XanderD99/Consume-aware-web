@@ -7,10 +7,9 @@ include "../head.php";
     <a href="/assets/pdf/Instruction_-_Methodological_Guide_Students.pdf" download="Instruction_-_Methodological_Guide_Students.pdf">Instruction - Methodological Guide Students</a>
 </div>
 <div class="row center-align">
-    <a href="student.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button>
-</div></a>
+    <a href="student.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button></a>
 </div>
-</main
+</main>
 
 <?php
 include "../tail.php";

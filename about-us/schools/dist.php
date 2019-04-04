@@ -1,6 +1,9 @@
 <?php 
+include '../utils.php';
 
 isset($_GET['school']) ? $string = $_GET['school'] : header('Location: /about-us');
+
+$string = clean($string);
 
 switch($string) {
     case 'uekatowice':

@@ -6,10 +6,9 @@ include "../head.php";
     <h1>Part 1</h1>
 </div>
 <div class="row center-align">
-    <a href="lectures.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button>
-</div></a>
+    <a href="lectures.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button></a>
 </div>
-</main
+</main>
 
 <?php
 include "../tail.php";

@@ -14,7 +14,7 @@
     Our <a href="http://www.unitn.it/en" target="_blank" rel="noopener noreferrer">website.</a>
 </p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>Calepina, <br>
     14 - I-38122 Trento
 </p>
@@ -34,7 +34,7 @@
                     <h6 class="title">University of Trento</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:Italo.trevisan@unitn.it">mail</a></li>
                 <li><a href="/about-us/detail.php?name=italo">Read more</a></li>
             </ul>
         </div>

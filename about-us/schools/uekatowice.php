@@ -8,7 +8,7 @@ The co-operation with foreign countries is one of the most intensively developin
 
 <p>Our <a href="http://www.ue.katowice.pl" target="_blank" rel="noopener noreferrer">website.</a></p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>1 Maja Street 50 <br>
 40-287 Katowice <br>
 Poland
@@ -79,6 +79,21 @@ Poland
             <ul class="social">
                 <li><a href="mailto:agnieszka.marie@gmail.com">mail</a></li>
                 <li><a href="/about-us/detail.php?name=agnieszka">Read more</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="s12 m6 l4 xl3 col">
+        <div class="our-team">
+            <div class="picture">
+                <img class="img-fluid" src="/assets/images/people/edyta.png">
+            </div>
+            <div class="team-content">
+                <h5 class="name">Edyta Gałecka</h3>
+                    <h6 class="title">University of Economics in Katowice</h4>
+            </div>
+            <ul class="social">
+                <li><a href="mailto:edyta.galecka@ue.katowice.pl">mail</a></li>
+                <li><a href="/about-us/detail.php?name=edyta">Read more</a></li>
             </ul>
         </div>
     </div>

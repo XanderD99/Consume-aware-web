@@ -54,7 +54,7 @@
     Our <a href="http://www.howest.be/en" target="_blank" rel="noopener noreferrer">website.</a>
 </p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>
     Marksesteenweg 58, <br>
     8500 Kortrijk, Belgium
