@@ -32,6 +32,10 @@ main {
 	z-index: -1;
 }
 
+.motto{
+	font-weight:bold;
+}
+
 main {
 	padding: 2rem;
 }

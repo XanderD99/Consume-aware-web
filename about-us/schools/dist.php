@@ -13,7 +13,7 @@ switch($string) {
         include_once('bge.php');
     break;
     case 'bucarest':
-        include_once('bucarest.php');
+        include_once('bucharest.php');
     break;
     case 'isik':
         include_once('isik.php');
