@@ -34,11 +34,11 @@ class Chapter {
     }
 
     addPpt(ppt) {
-        this.pdfs.push(ppt);
+        this.ppts.push(ppt);
     }
 
     addVideo(video) {
-        this.pdfs.push(video);
+        this.videos.push(video);
     }
 
     getFile(id) {

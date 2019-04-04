@@ -5,9 +5,11 @@ document.addEventListener('DOMContentLoaded', init);
 let parts = [];
 
 function init(){
+
     let pdf2 = new Pdf(2, "second title","assets/pdf/3_Understanding-the-Market-and-Companies-Behavior.pdf","");
     let pdf = new Pdf(1, "just a title", "assets/pdf/e-chapter9.pdf", "loc");
     let ppt1 = new Ppt(1,"ppt title", "assets/pdf/New_e-book_chapter_VI.pdf","download");
+    generateParts();
     let Video1 = new Video(1,"Video title","plekke");
     let chap1 = new Chapter(1, "chapter1 title");
     let chap2 = new Chapter(2, "chapter2 title");
@@ -93,4 +95,16 @@ function getPartAttribute() {
 
     }
     return null;
+}
+
+
+
+function getPdfHtml(pdf){
+    console.log(pdf.title + "this is a TITLE");
+    let html = "";
+    html += "<li>";
+    html += "<h3>"+ pdf.chapter + ". " + pdf.title + "</h3>";
+    html += "<li>"+ pdf.title +" pdf :"+" <img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton' data-chapter='"+ pdf.chapter +"' data-file='pdf'></li>"+"<li>"+ pdf.title +"<img src='assets/images/powerpoint.png' class='logobtn' alt='pttbutton' data-chapter='"+ pdf.chapter +"' data-file='ppt'/></li>";
+    html += "</li>";
+    return html;
 }
