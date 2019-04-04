@@ -16,7 +16,7 @@
 <p>Both in initial education and continuing trainings BBS started to introduce innovative curricula for entrepreneurs. BBS participates in several international projects. </p>
 <p>Our <a href="http://en.uni-bge.hu" target="_blank" rel="noopener noreferrer">website.</a></p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>
 Budapest, Buzogány u. 10-12., <br>
 1149 Hungary

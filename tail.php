@@ -10,12 +10,12 @@
 					<div class="col l6 s12">
 						<ul class="navIconBox ">
 							<li>
-								<a class="grey-text text-lighten-3 footerlink" href="https://www.facebook.com/Consume-Aware-584585511743138/">
+								<a class="grey-text text-lighten-3 footerlink" href="https://www.facebook.com/Consume-Aware-584585511743138/" target="_blank" rel="noopener">
 									<i class="fab fa-facebook"></i>
 								</a>
 							</li>
 							<li>
-								<a class="grey-text text-lighten-3 footerlink" href="https://twitter.com/Consume_Aware">
+								<a class="grey-text text-lighten-3 footerlink" href="https://twitter.com/Consume_Aware" target="_blank" rel="noopener">
 									<i class="fab fa-twitter-square"></i>
 								</a>
 							</li>

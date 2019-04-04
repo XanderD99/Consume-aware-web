@@ -12,7 +12,7 @@
 
 <p>Our <a href="http://www.iqe.univ-smb.fr" target="_blank" rel="noopener noreferrer">website.</a></p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>4 Chemin de Bellevue <br>
 BP 80439 Annecy-le-Vieux <br>
 74944 Annecy</p>
@@ -32,7 +32,7 @@ BP 80439 Annecy-le-Vieux <br>
                     <h6 class="title">Université Savoie Mont Blanc</h4>
             </div>
             <ul class="social">
-                <li><a href="mailto:">mail</a></li>
+                <li><a href="mailto:sgana@univ-smb.fr">mail</a></li>
                 <li><a href="/about-us/detail.php?name=stephane">Read more</a></li>
             </ul>
         </div>
