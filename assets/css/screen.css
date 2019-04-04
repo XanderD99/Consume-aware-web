@@ -229,8 +229,19 @@ p {
 }
 
 /***Extra form css***/
-#submitButton {
+.submitButton {
 	color:white;
+	padding: 1rem;
+
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	border-radius: 0.5rem;
+}
+
+.submitButton:hover {
+	box-shadow: 2px 2px 5px #888888;
 }
 
 /***Specific css for Homepage***/
