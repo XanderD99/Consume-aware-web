@@ -15,7 +15,7 @@ Kampusranta 11, <br>
 <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/marja-salonen.png">
+                <img class="img-fluid" src="/assets/images/people/marja.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Marja Salonen</h3>
@@ -30,7 +30,7 @@ Kampusranta 11, <br>
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/petra-sippola.png">
+                <img class="img-fluid" src="/assets/images/people/petra.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Petra Sippola</h3>
@@ -55,12 +55,12 @@ Kampusranta 11, <br>
                 <li><a href="mailto:">mail</a></li>
                 <li><a href="/about-us/detail.php?name=marjo">Read more</a></li>
             </ul>
-        </div-->
-    </div>
+        </div>
+    </div-->
     <div class="s12 m6 l4 xl3 col">
         <div class="our-team">
             <div class="picture">
-                <img class="img-fluid" src="/assets/images/people/ville-pekka-makelainen.png">
+                <img class="img-fluid" src="/assets/images/people/makalainen.png">
             </div>
             <div class="team-content">
                 <h5 class="name">Ville-Pekka Makelainen</h3>
