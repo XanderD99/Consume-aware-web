@@ -11,14 +11,16 @@ class Part {
 
     getHtml(){
         let html = "";
+
         html += "<li>";
-        html += "<h2>Part "+ this.number + ": " + this.title + "</h2>";
+        html += "<h2 Part "+ this.number + ": " + this.title + "</h2>";
         html += "<ul>";
         this.chapters.forEach(chapter => {
             html += chapter.getHtml(this.number);
         });
         html += "</ul>";
         html += "</li>";
+
         return html;
     }
 

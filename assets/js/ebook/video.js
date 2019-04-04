@@ -7,10 +7,10 @@ class Video {
 
     getHtml(partId, chapterId){
         let html = "";
-        html += "<li class='file' data-part='"+partId+"' data-chapter='"+chapterId+"' data-file='"+this.id+"'>";
-        html += "<img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton'>";//todo change this to video logo
+        html += "<li id='aside_li' class='file' data-part='"+partId+"' data-chapter='"+chapterId+"' data-file='"+this.id+"'>";
+        html += "<img src='assets/images/youtubelogo.png' class='logobtn' alt='`videobutton'>";//todo change this to video logo
         html += "<h4>"+ this.title +"</h4>";
-        html += "<a href=''>Download</a>";//todo change this to logo
+        html += "<a id='download' href=''>    </a>";
         html += "</li>";
         return html;
     }
