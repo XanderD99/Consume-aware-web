@@ -25,16 +25,16 @@ let data_pdfs = [
         chapter: 1,
         part: 1,
         title: "Understanding consumer behavior",
-        location: "assets/pdf/Part_I.pdf",
-        download: "assets/pdf/Part_I.pdf"
+        location: "assets/pdf/Chapter_I.pdf",
+        download: "assets/pdf/Chapter_I.pdf"
     },
     {
         id: 2,
         chapter: 2,
         part: 1,
         title: "Understanding consumption and consumer values",
-        location: "assets/pdf/Part_II.pdf",
-        download: "assets/pdf/Part_II.pdf"
+        location: "assets/pdf/Chapter_II.pdf",
+        download: "assets/pdf/Chapter_II.pdf"
     }
     ,
     {
@@ -42,8 +42,8 @@ let data_pdfs = [
         chapter: 3,
         part: 1,
         title: "Customer awareness importance",
-        location: "assets/pdf/Part_III.pdf",
-        download: "assets/pdf/Part_III.pdf"
+        location: "assets/pdf/Chapter_III.pdf",
+        download: "assets/pdf/Chapter_III.pdf"
     }
     ,
     {
@@ -51,8 +51,8 @@ let data_pdfs = [
         chapter: 4,
         part: 2,
         title: "Understanding the market and companies' behaviour",
-        location: "assets/pdf/Part_IV.pdf",
-        download: "assets/pdf/Part_IV.pdf"
+        location: "assets/pdf/Chapter_IV.pdf",
+        download: "assets/pdf/Chapter_IV.pdf"
     }
     ,
     {
@@ -60,8 +60,8 @@ let data_pdfs = [
         chapter: 5,
         part: 2,
         title: "Companies' practices requiring consumers' protection",
-        location: "assets/pdf/Part_V.pdf",
-        download: "assets/pdf/Part_V.pdf"
+        location: "assets/pdf/Chapter_V.pdf",
+        download: "assets/pdf/Chapter_V.pdf"
     }
     ,
     {
@@ -69,8 +69,8 @@ let data_pdfs = [
         chapter: 6,
         part: 2,
         title: "Consumer awareness relevance and strategies: consumer awareness implications on businesses",
-        location: "assets/pdf/Part_VI.pdf",
-        download: "assets/pdf/Part_VI.pdf"
+        location: "assets/pdf/Chapter_VI.pdf",
+        download: "assets/pdf/Chapter_VI.pdf"
     }
     ,
     {
@@ -78,8 +78,8 @@ let data_pdfs = [
         chapter: 7,
         part: 3,
         title: "Consumer policy on European market: models and organizational structure",
-        location: "assets/pdf/Part_VII.pdf",
-        download: "assets/pdf/Part_VII.pdf"
+        location: "assets/pdf/Chapter_VII.pdf",
+        download: "assets/pdf/Chapter_VII.pdf"
     }
     ,
     {
@@ -87,8 +87,8 @@ let data_pdfs = [
         chapter: 8,
         part: 3,
         title: "Consumer rights: national and European examples and practices",
-        location: "assets/pdf/Part_VIII.pdf",
-        download: "assets/pdf/Part_VIII.pdf"
+        location: "assets/pdf/Chapter_VIII.pdf",
+        download: "assets/pdf/Chapter_VIII.pdf"
     }
     ,
     {
@@ -96,8 +96,8 @@ let data_pdfs = [
         chapter: 9,
         part: 3,
         title: "Customer rights understanding in services sector",
-        location: "assets/pdf/Part_IX.pdf",
-        download: "assets/pdf/Part_IX.pdf"
+        location: "assets/pdf/Chapter_IX.pdf",
+        download: "assets/pdf/Chapter_IX.pdf"
     }
     ,
     {
@@ -105,8 +105,8 @@ let data_pdfs = [
         chapter: 10,
         part: 3,
         title: "Institutions of consumer rights protection",
-        location: "assets/pdf/Part_X.pdf",
-        download: "assets/pdf/Part_X.pdf"
+        location: "assets/pdf/Chapter_X.pdf",
+        download: "assets/pdf/Chapter_X.pdf"
     }
     ,
     {
@@ -114,8 +114,8 @@ let data_pdfs = [
         chapter: 11,
         part: 3,
         title: "Building customer awareness",
-        location: "assets/pdf/Part_XI.pdf",
-        download: "assets/pdf/Part_XI.pdf"
+        location: "assets/pdf/Chapter_XI.pdf",
+        download: "assets/pdf/Chapter_XI.pdf"
     }
 
 
@@ -135,7 +135,7 @@ let data_ppts = [
     },
     {
         id: 13,
-        chapter: 1,
+        chapter: 2,
         part: 1,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT1_CHPTR2.pdf",
@@ -144,7 +144,7 @@ let data_ppts = [
 
     {
         id: 14,
-        chapter: 1,
+        chapter: 3,
         part: 1,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT1_CHPTR3.pdf",
@@ -153,8 +153,8 @@ let data_ppts = [
 
     {
         id: 15,
-        chapter: 1,
-        part: 1,
+        chapter: 4,
+        part: 2,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT2_CHPTR4.pdf",
         download: "assets/pdf/PPT_PRT2_CHPTR4.pptx"
@@ -162,8 +162,8 @@ let data_ppts = [
 
     {
         id: 16,
-        chapter: 1,
-        part: 1,
+        chapter: 5,
+        part: 2,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT2_CHPTR5.pdf",
         download: "assets/pdf/PPT_PRT2_CHPTR5.pptx"
@@ -171,8 +171,8 @@ let data_ppts = [
 
     {
         id: 17,
-        chapter: 1,
-        part: 1,
+        chapter: 6,
+        part: 2,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT2_CHPTR6.pdf",
         download: "assets/pdf/PPT_PRT2_CHPTR6.pptx"
@@ -180,8 +180,8 @@ let data_ppts = [
 
     {
         id: 18,
-        chapter: 1,
-        part: 1,
+        chapter: 7,
+        part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
@@ -189,44 +189,35 @@ let data_ppts = [
 
     {
         id: 19,
-        chapter: 1,
-        part: 1,
-        title: "Titel 1",
-        location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
-    },
-
-    {
-        id: 20,
-        chapter: 1,
-        part: 1,
+        chapter: 8,
+        part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR8.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR8.pptx"
     },
 
     {
-        id: 21,
-        chapter: 1,
-        part: 1,
+        id: 20,
+        chapter: 9,
+        part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR9.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR9.pptx"
     },
 
     {
-        id: 22,
-        chapter: 1,
-        part: 1,
+        id: 21,
+        chapter: 10,
+        part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR10.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR10.pptx"
     },
 
     {
-        id: 23,
-        chapter: 1,
-        part: 1,
+        id: 22,
+        chapter: 11,
+        part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR11.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR11.pptx"
