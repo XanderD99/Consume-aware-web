@@ -10,7 +10,7 @@ class Pdf {
         let html = "";
         html += "<li id='aside_li' class='file' data-part='"+partId+"' data-chapter='"+chapterId+"' data-file='"+this.id+"'>";
         html += "<img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton'>"+"<h4>"+ this.title +"</h4>" ;
-        html += "<a id='download' href=''>    </a>";
+        html += "<a class='download' href='"+this.download+"' download='"+this.title+"'>    </a>";
         html += "</li>";
         return html;
     }
