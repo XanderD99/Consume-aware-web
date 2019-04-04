@@ -5,8 +5,18 @@ let parts = [
     {number: 2, title: "Part 2 title"}
 ];
 
-let chapters = [
-    {number: 1, title: "Chapter title"}
+let chapter = [
+    {number: 1, part:getPart(1), title: "Consumers and their behaviour on the market"},
+    {number: 2, part:getPart(1), title: "Understanding consumption and consumer values"},
+    {number: 3, part:getPart(1), title: "Customer awareness importance"},
+    {number: 4, part:getPart(2), title: "Understanding the market and companies' behaviour"},
+    {number: 5, part:getPart(2), title: "Companies' practices requiring consumers' protection"},
+    {number: 6, part:getPart(2), title: "Consumer awareness relevance and strategies: consumer awareness implications on businesses"},
+    {number: 7, part:getPart(3), title: "Consumer policy on European market: models and organizational structure"},
+    {number: 8, part:getPart(3), title: "Consumer rights: national and European examples and practices"},
+    {number: 9, part:getPart(3), title: "Customer rights understanding in services sector"},
+    {number: 10, part:getPart(3), title: "Institutions of consumer rights protection"},
+    {number: 11, part:getPart(3), title: "Building customer awareness"}
 ];
 
 
