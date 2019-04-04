@@ -21,10 +21,27 @@ let ppts = [
 ];
 
 let videos = [
-    {chapter:1, part:getPart(1), title:"Titel 1", location:"https://www.youtube.com/embed/V2EMuoM5IX4" },
-    {chapter:2, part:getPart(1), title:"Titel 2", location:"https://www.youtube.com/embed/e7S8jWh6AEs"},
-    {chapter:3, part:getPart(2), title:"Titel 3", location:"https://www.youtube.com/embed/IiOC5XG2I5Y"},
-    {chapter:4, part:getPart(2), title:"Titel 4", location:"https://www.youtube.com/embed/mvuPvAmNItQ"}
+    {chapter:1, part:getPart(1), title:"The psychology behind irrational decisions - Sara Garofalo", location:"https://www.youtube.com/embed/V2EMuoM5IX4" },
+    {chapter:1, part:getPart(1), title:"The paradox of value", location:"https://www.youtube.com/embed/e7S8jWh6AEs"},
+
+    {chapter:2, part:getPart(2), title:"The importance of studying consumer behavior", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:3, part:getPart(2), title:"Consumer protection - why it matters to you", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:4, part:getPart(2), title:"About the world's most ethical companies", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:5, part:getPart(2), title:"Huggy met votre famille sur écoute", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:5, part:getPart(2), title:"Huggybug your family today': don't play around with children's online safety", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:5, part:getPart(2), title:"Safety and welfare for the food chain", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+
+    {chapter:7, part:getPart(2), title:"Consumer rights: EU presentation", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:7, part:getPart(2), title:"Question on your rights in Europe, complaint against a European trader: contact the ECC network", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:7, part:getPart(2), title:"Consumer rights", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:7, part:getPart(2), title:"Online dispute resolution: fast, fair & convenient", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:10, part:getPart(2), title:"EU trade policy explained", location:"https://www.youtube.com/embed/IiOC5XG2I5Y"},
+    {chapter:11, part:getPart(2), title:"European Consumer Center (ECC)", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:12, part:getPart(2), title:"The 11 UN consumer protection guidelines", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+
+    {chapter:0, part:getPart(2), title:"Protecting European consumers", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:0, part:getPart(2), title:"Greening the economy: lessons from Scandinavia", location:"https://www.youtube.com/embed/mvuPvAmNItQ"},
+    {chapter:0, part:getPart(2), title:"Tax and VAT issues when trading with countries in the EU", location:"https://www.youtube.com/embed/mvuPvAmNItQ"}
 ];
 
 
