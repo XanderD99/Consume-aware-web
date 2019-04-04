@@ -47,8 +47,8 @@ switch ($string) {
     case 'petra': 
         include_once('petra.php');
         break;
-    case 'ville': 
-        include_once('ville.php');
+    case 'ville-pekka': 
+        include_once('ville-pekka.php');
         break;
     case 'italo': 
         include_once('italo.php');
