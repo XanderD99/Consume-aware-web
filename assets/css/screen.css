@@ -228,3 +228,9 @@ p {
 #submitButton {
 	color:white;
 }
+
+/***Specific css for Homepage***/
+.centeredConsumeAwareLogo {
+	display: flex;
+	align-items: center;
+}
