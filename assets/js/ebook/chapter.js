@@ -23,7 +23,8 @@ class Chapter {
             html += video.getHtml(partId, this.number);
         });
         html += "</ul>";
-        html += "</li>"
+        html += "</li>";
+        return html;
     }
 
 

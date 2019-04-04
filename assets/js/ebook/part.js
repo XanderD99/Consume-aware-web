@@ -5,7 +5,7 @@ class Part {
         this.chapters = [];
     }
 
-    getPartHtml(){
+    getHtml(){
         let html = "";
         html += "<li>";
         html += "<h2>Part "+ this.number + ": " + this.title + "</h2>";
@@ -16,6 +16,10 @@ class Part {
         html += "</ul>";
         html += "</li>";
         return html;
+    }
+
+    addChapter(chapter) {
+        this.chapters.push(chapter);
     }
 
 }
