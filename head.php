@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<title>Contact - Consume Aware</title>
+		<title>Consume Aware</title>
 
 		<!-- reset -->
 		<link rel="stylesheet" href="/assets/css/reset.css" />
@@ -31,7 +31,6 @@
 
 	</head>
 	<body>
-		<header>
 		<nav class="cyan">
 			<div class="nav-wrapper px-4">
 				<a href="/" class="brand-logo"> <img src="/assets/images/Consu mee-03.png" height="60" alt="logo"> </a>
@@ -39,22 +38,21 @@
 					><i class="material-icons">menu</i>
 					</a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="index.php">Home</a></li>
+					<li><a href="/">Home</a></li>
 					<li><a href="/project/">Project</a></li>
-					<li><a href="study-material.php">Study material</a></li>
-					<li><a href="https://www.ue.katowice.pl/en/events/international-conference-on-enhancing-consumer-awareness/">Conference</a></li>
+					<li><a href="/study-material/">Study material</a></li>
+					<li><a href="/conference.php">Conference</a></li>
 					<li><a href="/about-us/">About us</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="/contact.php">Contact</a></li>
 				</ul>
 			</div>
 		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="index.php">Home</a></li>
+			<li><a href="/">Home</a></li>
 			<li><a href="/project/">Project</a></li>
-			<li><a href="study-material.php">Study material</a></li>
-			<li><a href="https://www.ue.katowice.pl/en/events/international-conference-on-enhancing-consumer-awareness/">Conference</a></li>
+			<li><a href="/study-material/">Study material</a></li>
+			<li><a href="/conference.php">Conference</a></li>
 			<li><a href="/about-us/">About us</a></li>
-			<li><a href="contact.php">Contact</a></li>
+			<li><a href="/contact.php">Contact</a></li>
 		</ul>
-		</header>

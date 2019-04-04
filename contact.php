@@ -1,9 +1,18 @@
 <?php
 include_once("head.php");
 
+if (isset($_POST["name"])) {
+	$name = $_POST["name"];
+	$email = $_POST["email"];
+	$subject = $_POST["subject"];
+	$message = $_POST["message"];
+	$receiver = "someone@example.com";
+
+	mail($receiver, $subject, $message, $name);
+}
 ?>
 		<main class="container">
-			<form action="" method="post">
+			<form action="contact.php" method="post" id="contactForm">
 				<div class="row">
 					<h5>
 						If you have any question do not hesitate to contact us.
@@ -12,17 +21,18 @@ include_once("head.php");
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="name">Name and surname</label>
-						<input type="text" id="name" class="validate" />
+						<input type="text" id="name" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="email">Your email</label>
 						<input
-							type="text"
+							type="email"
 							id="email"
 							class="validate"
 							placeholder="example@domainname.com"
+							required
 						/>
 						<span
 							class="helper-text"
@@ -34,22 +44,23 @@ include_once("head.php");
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="subject">Subject</label>
-						<input type="text" id="subject" class="validate" />
+						<input type="text" id="subject" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="message">Write your message here</label>
-						<input type="text" id="message" class="validate" />
+						<input type="text" id="message" class="validate" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<button onclick="alertFunction()">Send</button>
+						<input type="submit" class="btn waves-effect waves-light cyan" id="submitButton" value="Send">
 					</div>
 				</div>
 			</form>
 		</main>
+
 <?php
-include_once("tail.php")
+include_once("tail.php");
 ?>
