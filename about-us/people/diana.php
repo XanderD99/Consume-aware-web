@@ -22,4 +22,4 @@
 <p>Professional Communication Skills in English, 2016, ed. cavallioti and PIM, ISBN 978-606-551-073-9 , ISBN 978-606-13-2880-</p>
 <p>Revisiting  the 22 Laws of Marketing, 2014, in Modern Marketing for Profitableand Non Profitable Organisations- International Perspective, University of Katowice Publisher, ISBN 978-83-7875-169-4,  pp 73-84</p>
 <h4>Message for students</h4>
-<p>Success is the best revenge!</p>
+<p class="motto">Success is the best revenge!</p>

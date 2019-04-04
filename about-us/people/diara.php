@@ -21,4 +21,4 @@
 <p><strong>Business English – Theory and Practice</strong>, 2013, Universitatea Bucureşti Publishing House, ISBN 978-606-16-0338-1</p>
 <p><strong>Elements of English Terminology</strong>, 2013, Universitatea Bucureşti Publishing House, ISBN 978-606-16-0399-2</p>
 <h4>Message for students</h4>
-<p>Be the best you can be every day!</p>
+<p class="motto">Be the best you can be every day!</p>

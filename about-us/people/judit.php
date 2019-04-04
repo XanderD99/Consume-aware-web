@@ -34,6 +34,6 @@ Az innovációs képesség és az alternatív tudástranszfer jelentősége a ma
 </p>
 
 <h4>Message for students</h4>
-<p>
+<p class="motto">
 Come with me and let me entertain you 
 </p>
