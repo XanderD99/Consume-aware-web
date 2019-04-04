@@ -90,7 +90,7 @@ function setPdf(chapter) {
 
 function setProgressBar(chapter) {
     let percent = (chapter/chapters.length)*100;
-    document.getElementById("progress").style.width = percent;
+    document.getElementById("progress").style.width = percent+"%";
 }
 
 function getPart(number) {
@@ -155,6 +155,10 @@ function getPartHtml(part){
     html += "</ul>";
     html += "</li>";
     return html;
+}
+
+function getSectionHtml(section) {
+    let html = "";
 }
 
 function getPdfHtml(pdf){
