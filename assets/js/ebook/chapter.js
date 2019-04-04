@@ -42,20 +42,16 @@ class Chapter {
     }
 
     getFile(id) {
-        console.log(id);
-        console.log(this.pdfs[0].getId());
-        console.log(this.pdfs.filter(pdf => pdf.number === id));
-        console.log(this.ppts.filter(ppt => ppt.number === id));
-        console.log(this.videos.filter(video => video.number === id));
-        if(this.pdfs.filter(pdf => pdf.getId() === id)[0] === null) {
-            return this.pdfs.filter(pdf => pdf.number === id)[0]
+        id = parseInt(id);
+        if(this.pdfs.filter(pdf => parseInt(pdf.getId()) === id)[0] !== null) {
+            return this.pdfs.filter(pdf => parseInt(pdf.getId()) === id)[0]
         }
 
-        if(this.ppts.filter(ppt => ppt.getId() === id)[0] === null) {
-            return this.ppts.filter(ppt => ppt.number === id)[0]
+        if(this.ppts.filter(ppt => parseInt(ppt.getId()) === id)[0] !== null) {
+            return this.ppts.filter(ppt => parseInt(ppt.getId())=== id)[0]
         }
-        if(this.videos.filter(video => video.getId() === id)[0]) {
-            return this.videos.filter(video => video.number === id)[0]
+        if(this.videos.filter(video => parseInt(video.getId()) === id)[0] !== null) {
+            return this.videos.filter(video => parseInt(video.getId()) === id)[0]
         }
     }
 }

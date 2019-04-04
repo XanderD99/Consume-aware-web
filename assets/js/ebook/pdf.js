@@ -1,6 +1,6 @@
 class Pdf {
     constructor(id, title, location, download) {
-        this.id = id;
+        this.id = parseInt(id);
         this.title = title;
         this.location = location;
         this.download = download;

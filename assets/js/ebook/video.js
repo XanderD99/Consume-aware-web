@@ -1,6 +1,6 @@
 class Video {
     constructor(id, title, location) {
-        this.id = id;
+        this.id = parseInt(id);
         this.title = title;
         this.location = location;
     }

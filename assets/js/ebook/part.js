@@ -1,6 +1,6 @@
 class Part {
     constructor(number, title) {
-        this.number = number;
+        this.number = parseInt(number);
         this.title = title;
         this.chapters = [];
     }
