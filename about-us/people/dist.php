@@ -26,8 +26,8 @@ switch ($string) {
     case 'magdalena': 
         include_once('magalena.php');
         break;
-    case 'frededric': 
-        include_once('frededric.php');
+    case 'frederic': 
+        include_once('frederic.php');
         break;
     case 'corneel': 
         include_once('corneel.php');

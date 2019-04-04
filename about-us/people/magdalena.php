@@ -21,4 +21,4 @@
 <p><strong>Higher Education Leadership and Institutional Development; Stakeholders’ Perceptions </strong>(Proceedings of the ECMLG 2016 – 12 th European Conference on Management Leadership and Governance, Bucharest, 2016, http://www.academic-conferences.org/conferences/ecmlg/ecmlg-future-and-past/)</p>
 <p><strong>Role of University Rankings in the Context of Lack of Resources; National and Institutional Challenges </strong>(World University Rankings and the Future of Higher Education, 2017, Editors: Kevin Downing and Fraide A. Ganotice Jr., chapter 10, pages 186-208; IGI Global., ISBN13: 9781522508199, ISBN10: 1522508198, EISBN13: 9781522508205, http://www.igi-global.com/book/world-university-rankings-future-higher/150147)</p>
 <h4>Message for students</h4>
-<p>Be enthusiastic in everything you do!</p>
+<p class="motto">Be enthusiastic in everything you do!</p>
