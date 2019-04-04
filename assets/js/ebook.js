@@ -29,10 +29,6 @@ let videos = [
 
 
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', init);
 
 function init(){
@@ -125,5 +121,3 @@ function getPdfHtml(pdf){
     html += "</li>";
     return html;
 }
-
-
