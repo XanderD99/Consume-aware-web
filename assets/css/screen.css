@@ -25,7 +25,7 @@ main {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	background: url('/assets/images/top-1024x303.png');
+	background: url('/assets/images/top.png');
 	background-size: cover;
 	background-position: center 50%;
 	filter: grayscale(0.6) brightness(0.5);
@@ -229,8 +229,19 @@ p {
 }
 
 /***Extra form css***/
-#submitButton {
+.submitButton {
 	color:white;
+	padding: 1rem;
+
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	border-radius: 0.5rem;
+}
+
+.submitButton:hover {
+	box-shadow: 2px 2px 5px #888888;
 }
 
 /***Specific css for Homepage***/
