@@ -1,4 +1,4 @@
-<h2>University of economics in Katowice</h2>
+<h2>University of Economics in Katowice</h2>
 
 <p>
 University of Economics in Katowice was founded in 1937 and is the biggest and oldest business school in the region, one of the top universities in Poland. Each year over 10,000 Polish and international students follow our degree programs at the Bachelor, Master, Doctoral and Post-diploma levels. University’s excellence is confirmed by full state accreditation in education as well as by top ranks of the faculties within the national assessment system of research institutions. Drawing on its long history and traditions, our university continues to grow and evolve implementing new ideas and diversification in its study offer as well as participating in various research and didactic projects. 
@@ -28,7 +28,7 @@ Poland
                 <img class="img-fluid" src="/assets/images/people/slawomir-smyczek.png">
             </div>
             <div class="team-content">
-                <h5 class="name">Slawomir Smyczek</h3>
+                <h5 class="name">S&#322;awomir Smyczek</h3>
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
