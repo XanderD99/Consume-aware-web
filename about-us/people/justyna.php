@@ -1,7 +1,20 @@
 <h2>Justyna Matysiewicz</h2>
 
 <h4>Academic profile</h4>
-<p>Professor of Marketing at the Faculty of Management, having an experience of more than 20 years of teaching and research. She is involved in higher education project management for more than 10 years. Vice–Dean for Education and Internationalization since 2016</p>
+<div class="col s12 m8 offset-m2 l6 offset-l3">
+    <div class="">
+        <div class="row valign-wrapper">
+            <div class="col s2 center">
+                <img height="125" width="125" src="/assets/images/people/justyna-matysiewicz.png" alt="Justyna Matysiewicz" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+                <span class="black-text">
+                Professor of Marketing at the Faculty of Management, having an experience of more than 20 years of teaching and research. She is involved in higher education project management for more than 10 years. Vice–Dean for Education and Internationalization since 2016
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
 <h4>Area of interest</h4>
 <p>Service marketing, customer relationship marketing and management, customer behaviors, project management, internationalization of university</p>
 <h4>Recent publications</h4>
