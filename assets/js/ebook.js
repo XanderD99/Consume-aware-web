@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', init);
 let parts = [];
 
 function init(){
+
+    generateParts();
+
+
     let pdf2 = new Pdf(2, "second title","","");
     let pdf = new Pdf(1, "just a title", "loc", "loc");
     let ppt1 = new Ppt(1,"ppt title", "loc","download");
@@ -95,4 +99,16 @@ function getPartAttribute() {
 
     }
     return null;
+}
+
+
+
+function getPdfHtml(pdf){
+    console.log(pdf.title + "this is a TITLE");
+    let html = "";
+    html += "<li>";
+    html += "<h3>"+ pdf.chapter + ". " + pdf.title + "</h3>";
+    html += "<li>"+ pdf.title +" pdf :"+" <img src='assets/images/pdflogo.png' class='logobtn' alt='pdfbutton' data-chapter='"+ pdf.chapter +"' data-file='pdf'></li>"+"<li>"+ pdf.title +"<img src='assets/images/powerpoint.png' class='logobtn' alt='pttbutton' data-chapter='"+ pdf.chapter +"' data-file='ppt'/></li>";
+    html += "</li>";
+    return html;
 }
