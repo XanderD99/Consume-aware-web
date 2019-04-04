@@ -6,22 +6,22 @@ if (isset($_POST["name"])) {
 	$email = $_POST["email"];
 	$subject = $_POST["subject"];
 	$message = $_POST["message"];
-	$receiver = "someone@example.com";
+	$mailContent = "sender message: " . $message . " -  sender name:" . $name . " - sender email: " . $email;
 
-	mail($receiver, $subject, $message, $name);
+	mail("consume-aware@uekat.pl", $subject, $mailContent);
 }
 ?>
 		<main class="container">
-			<form action="contact.php" method="post" id="contactForm">
+			<form action="/contact.php" method="post" id="contactForm">
 				<div class="row">
 					<h5>
-						If you have any question do not hesitate to contact us.
+						If you have any questions do not hesitate to contact us.
 					</h5>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="name">Name and surname</label>
-						<input type="text" id="name" class="validate" required/>
+						<input type="text" id="name" class="validate" name="name" required/>
 					</div>
 				</div>
 				<div class="row">
@@ -32,6 +32,7 @@ if (isset($_POST["name"])) {
 							id="email"
 							class="validate"
 							placeholder="example@domainname.com"
+							name="email"
 							required
 						/>
 						<span
@@ -44,13 +45,13 @@ if (isset($_POST["name"])) {
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="subject">Subject</label>
-						<input type="text" id="subject" class="validate" required/>
+						<input type="text" id="subject" class="validate" name="subject" required/>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<label for="message">Write your message here</label>
-						<input type="text" id="message" class="validate" required/>
+						<input type="text" id="message" class="validate" name="message" required/>
 					</div>
 				</div>
 				<div class="row">
