@@ -8,7 +8,7 @@ if(!isset($_POST['password'])){
     // header("Location: index.php");
     exit;
 } else {
-    if(!password_verify( $_POST['password'] ,  '$2y$10$C4wnRq2A15fcjqdrKT/cLee5mKsH9CZPj5VBbRrhCFfpd/ZpboHxC')){
+    if(!password_verify( $_POST['password'] ,  '$2y$10$Q7Uht1AMWIVPHXsVLl5zB.XlckqxisQwyagzJ.5Wq9eW/MAJhCFry')){
         echo("password_verify fails");
         // header("Location: admin.php");
         exit;
