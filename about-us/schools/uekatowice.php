@@ -8,7 +8,7 @@ The co-operation with foreign countries is one of the most intensively developin
 
 <p>Our <a href="http://www.ue.katowice.pl" target="_blank" rel="noopener noreferrer">website.</a></p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>1 Maja Street 50 <br>
 40-287 Katowice <br>
 Poland

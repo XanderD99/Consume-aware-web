@@ -14,7 +14,7 @@
     Our <a href="http://www.unitn.it/en" target="_blank" rel="noopener noreferrer">website.</a>
 </p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>Calepina, <br>
     14 - I-38122 Trento
 </p>

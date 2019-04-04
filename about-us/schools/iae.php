@@ -12,7 +12,7 @@
 
 <p>Our <a href="http://www.iqe.univ-smb.fr" target="_blank" rel="noopener noreferrer">website.</a></p>
 
-<h4>Adress</h4>
+<h4>Address</h4>
 <p>4 Chemin de Bellevue <br>
 BP 80439 Annecy-le-Vieux <br>
 74944 Annecy</p>
