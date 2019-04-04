@@ -5,7 +5,7 @@ let parts = [
     {number: 2, title: "Part 2 title"}
 ];
 
-let chapter = [
+let chapters = [
     {number: 1, title: "Chapter title"}
 ];
 
@@ -39,7 +39,7 @@ function init(){
     generateAside();
     let buttons = document.getElementsByClassName("logobtn");
     for(var i = 0; i < buttons.length; i++) {
-        buttons[i].addEventListener('click', setPdf, false)
+        buttons[i].addEventListener('click', clickButton, false)
     }
 
     PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
@@ -48,18 +48,22 @@ function init(){
 function clickButton() {
     let chapter = this.getAttribute("data-chapter");
     let file = this.getAttribute("data-file");
+    console.log(chapter);
     setPdf(chapter);
+    setProgressBar(chapter);
 
 }
 
 function setPdf(chapter) {
     let pdf = getPdf(chapter);
+
     document.getElementById("title").innerHTML = pdf.title;
     PDFObject.embed(pdf.location,"#pdfviewer");
 }
 
 function setProgressBar(chapter) {
-    //let percent =
+    let percent = (chapter/chapters.length)*100;
+    document.getElementById("progress").style.width = percent;
 }
 
 function getPart(number) {
