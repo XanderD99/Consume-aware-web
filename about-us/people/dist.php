@@ -24,7 +24,7 @@ switch ($string) {
         include_once('diara.php');
         break;
     case 'magdalena': 
-        include_once('magalena.php');
+        include_once('magdalena.php');
         break;
     case 'frededric': 
         include_once('frededric.php');
@@ -34,6 +34,12 @@ switch ($string) {
         break;
     case 'lieven': 
         include_once('lieven.php');
+        break;
+    case 'stephane': 
+        include_once('stephane.php');
+        break;
+    case 'gamze': 
+        include_once('gamze.php');
         break;
     default:
         header('Location: /about-us');
