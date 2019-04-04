@@ -5,15 +5,20 @@ document.addEventListener("DOMContentLoaded", init);
 const qs = (ele) => document.querySelector(ele);
 
 function init() {    
-    qs("#teacher").addEventListener("click", e => selectTeacher("#teacherSub"));
+    // qs("#teacher").addEventListener("click", e => selectTeacher("#teacherSub"));
     qs("#part1").addEventListener("click", e => selectPart("#part1Sub"));
     qs("#part2").addEventListener("click", e => selectPart("#part2Sub"));
     qs("#part3").addEventListener("click", e => selectPart("#part3Sub"));
-
+    qs("#logout").addEventListener("click", logout);
     for(let i= 1; i <=11; i++ ){
         qs(`#chapter${i}`).addEventListener("click", (e) => selectChapter(`#chapter${i}Sub`))
     }
 };
+
+function logout(){
+    document.cookie =  'token=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    window.location.href = "index.php";
+}
 
 function Form(){
     const Modalelem = qs('#modal');
