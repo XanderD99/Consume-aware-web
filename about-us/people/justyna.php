@@ -1,11 +1,4 @@
-<div class="row">
-    <div class="picture">
-        <img class="img-fluid" src="/assets/images/people/justyna-matysiewicz.png">
-    </div>
-
-    <p>University of Economics in Katowice</p>
-    <a href="justyna.matysiewicz@ue.katowice.pl">justyna.matysiewicz@ue.katowice.pl</a>
-</div>
+<h2>Justyna Matysiewicz</h2>
 
 <h4>Academic profile</h4>
 <p>Professor of Marketing at the Faculty of Management, having an experience of more than 20 years of teaching and research. She is involved in higher education project management for more than 10 years. Vice–Dean for Education and Internationalization since 2016</p>

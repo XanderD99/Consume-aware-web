@@ -24,6 +24,7 @@ The co-operation with foreign countries is one of the most intensively developin
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
+                <li><a href="mailto:%20slawomir.smyczek@ue.katowice.pl">mail</a></li>
                 <li><a href="/about-us/detail.php?name=slawomir">Read more</a></li>
             </ul>
         </div>
@@ -38,6 +39,7 @@ The co-operation with foreign countries is one of the most intensively developin
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
+                <li><a href="mailto:marta.grybs@ue.katowice.pl">mail</a></li>
                 <li><a href="/about-us/detail.php?name=marta">Read more</a></li>
             </ul>
         </div>
@@ -52,6 +54,7 @@ The co-operation with foreign countries is one of the most intensively developin
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
+                <li><a href="mailto:justyna.matysiewicz@ue.katowice.pl">mail</a></li>
                 <li><a href="/about-us/detail.php?name=justyna">Read more</a></li>
             </ul>
         </div>
@@ -66,6 +69,7 @@ The co-operation with foreign countries is one of the most intensively developin
                     <h6 class="title">University of Economics in Katowice</h4>
             </div>
             <ul class="social">
+                <li><a href="mailto:agnieszka.marie@gmail.com">mail</a></li>
                 <li><a href="/about-us/detail.php?name=agnieszka">Read more</a></li>
             </ul>
         </div>
