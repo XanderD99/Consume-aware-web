@@ -131,7 +131,7 @@ let data_ppts = [
         part: 1,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT1_CHPTR1.pdf",
-        download: "assets/pdf/PPT_PRT1_CHPTR1.pptx"
+        download: "assets/ppt/PPT_PRT1_CHPTR1.pptx"
     },
     {
         id: 13,
@@ -139,7 +139,7 @@ let data_ppts = [
         part: 1,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT1_CHPTR2.pdf",
-        download: "assets/pdf/PPT_PRT1_CHPTR2.pptx"
+        download: "assets/ppt/PPT_PRT1_CHPTR2.pptx"
     },
 
     {
@@ -148,7 +148,7 @@ let data_ppts = [
         part: 1,
         title: "Customer awareness importance",
         location: "assets/pdf/PPT_PRT1_CHPTR3.pdf",
-        download: "assets/pdf/PPT_PRT1_CHPTR3.pptx"
+        download: "assets/ppt/PPT_PRT1_CHPTR3.pptx"
     },
 
     {
@@ -157,7 +157,7 @@ let data_ppts = [
         part: 2,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT2_CHPTR4.pdf",
-        download: "assets/pdf/PPT_PRT2_CHPTR4.pptx"
+        download: "assets/ppt/PPT_PRT2_CHPTR4.pptx"
     },
 
     {
@@ -166,7 +166,7 @@ let data_ppts = [
         part: 2,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT2_CHPTR5.pdf",
-        download: "assets/pdf/PPT_PRT2_CHPTR5.pptx"
+        download: "assets/ppt/PPT_PRT2_CHPTR5.pptx"
     },
 
     {
@@ -175,7 +175,7 @@ let data_ppts = [
         part: 2,
         title: "Consumer awareness relevance and strategies",
         location: "assets/pdf/PPT_PRT2_CHPTR6.pdf",
-        download: "assets/pdf/PPT_PRT2_CHPTR6.pptx"
+        download: "assets/ppt/PPT_PRT2_CHPTR6.pptx"
     },
 
     {
@@ -184,7 +184,7 @@ let data_ppts = [
         part: 3,
         title: "Consumer policy on European market",
         location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
+        download: "assets/ppt/PPT_PRT3_CHPTR7.pptx"
     },
 
     {
@@ -193,7 +193,7 @@ let data_ppts = [
         part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR8.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR8.pptx"
+        download: "assets/ppt/PPT_PRT3_CHPTR8.pptx"
     },
 
     {
@@ -202,7 +202,7 @@ let data_ppts = [
         part: 3,
         title: "Customer rights understanding",
         location: "assets/pdf/PPT_PRT3_CHPTR9.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR9.pptx"
+        download: "assets/ppt/PPT_PRT3_CHPTR9.pptx"
     },
 
     {
@@ -211,7 +211,7 @@ let data_ppts = [
         part: 3,
         title: "Titel 1",
         location: "assets/pdf/PPT_PRT3_CHPTR10.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR10.pptx"
+        download: "assets/ppt/PPT_PRT3_CHPTR10.pptx"
     },
 
     {
@@ -220,7 +220,7 @@ let data_ppts = [
         part: 3,
         title: "Building consumer awareness",
         location: "assets/pdf/PPT_PRT3_CHPTR11.pdf",
-        download: "assets/pdf/PPT_PRT3_CHPTR11.pptx"
+        download: "assets/ppt/PPT_PRT3_CHPTR11.pptx"
     }
 ];
 
