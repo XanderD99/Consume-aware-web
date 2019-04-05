@@ -25,7 +25,7 @@ include_once "../head.php";
       </div>
       <div class="row">
       <div class="input-field col s12">
-      <input type="submit" value="Log in" class="waves-effect waves-light btn cyan">
+      <input type="submit" value="Log in" class="cyan submitButton">
       </div>
       </div>
     </form>

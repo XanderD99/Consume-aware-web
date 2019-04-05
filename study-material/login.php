@@ -9,7 +9,7 @@ if(!isset($_POST['password'])){
 } else {
     if(!password_verify( $_POST['password'] ,  '$2y$10$Q7Uht1AMWIVPHXsVLl5zB.XlckqxisQwyagzJ.5Wq9eW/MAJhCFry')){
         // echo("password_verify fails");
-        header("Location: admin.php");
+        header("Location: teacher-login.php");
         exit;
     };
 }
