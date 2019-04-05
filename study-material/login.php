@@ -3,13 +3,13 @@ include "../utils.php";
 include_once "../Encrypter.php";
 
 if(!isset($_POST['password'])){
-    echo("got no post");
-    // header("Location: index.php");
+    // echo("got no post");
+    header("Location: index.php");
     exit;
 } else {
     if(!password_verify( $_POST['password'] ,  '$2y$10$Q7Uht1AMWIVPHXsVLl5zB.XlckqxisQwyagzJ.5Wq9eW/MAJhCFry')){
-        echo("password_verify fails");
-        // header("Location: admin.php");
+        // echo("password_verify fails");
+        header("Location: teacher-login.php");
         exit;
     };
 }
@@ -34,8 +34,8 @@ function setUserCookie()
 
 //password ok!
 setUserCookie();
-echo("pw ok");
-// header("Location: /study-material/teacher.php");
+// echo("pw ok");
+header("Location: /study-material/teacher.php");
 exit;
 
 ?>
