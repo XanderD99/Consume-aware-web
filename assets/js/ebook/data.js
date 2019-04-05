@@ -356,9 +356,15 @@ let data_videos = [
 function generateParts(partId) {
 
     let ofparts = [];
-    partId = parseInt(partId);
+
+    if(partId === NaN || partId === undefined || null) {
+        partId = 0;
+    } else {
+        partId = parseInt(partId);
+    }
+    console.log(partId);
     data_parts.forEach(part => {
-        if(part === null || part.number === partId){
+        if(partId === 0 || part.number === partId){
             let newPart = new Part(
                 part.number,
                 part.title
