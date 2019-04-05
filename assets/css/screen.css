@@ -266,3 +266,7 @@ p {
 .navigation button:first-of-type {
 	margin-right: 10px;
 }
+
+.boldText {
+	font-weight: bold !important;
+}

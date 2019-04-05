@@ -7,9 +7,16 @@ include "../head.php";
     </div>
     <div class="row center-align">
         <p>
-            This application gives the possibility to check the actual consumer awareness level. It also plays an educational role in teaching students, consumers and individuals about their rights on the market. Thanks to this application, their consumer awareness knowledge could be developed. Consumer Aware App can guarantee excellent education through entertainment.
+            This application gives the possibility to check the actual consumer awareness level. It also plays an
+            educational role in teaching students, consumers and individuals about their rights on the market. Thanks to
+            this application, their consumer awareness knowledge could be developed. Consumer Aware App can guarantee
+            excellent education through entertainment.
         </p>
-        <a href="index.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button></a>
+        <a href="https://appcage.howest.be"><img src="/assets/images/appScreenShot.png" alt="App screenshot" width="200px"></a>
+        <br>
+
+        <a href="index.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go
+                back</button></a>
     </div>
 </main>
 <?php
