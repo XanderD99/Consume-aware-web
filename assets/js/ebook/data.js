@@ -353,65 +353,73 @@ let data_videos = [
     }
 ];
 
-function generateParts() {
+function generateParts(partId) {
 
     let ofparts = [];
 
+    if(partId === NaN || partId === undefined || null) {
+        partId = 0;
+    } else {
+        partId = parseInt(partId);
+    }
+    console.log(partId);
     data_parts.forEach(part => {
-        let newPart = new Part(
-            part.number,
-            part.title
-        );
-        data_chapter.forEach(chapter => {
-            if (chapter.part === part.number) {
-                let newChapter = new Chapter(
-                    chapter.number,
-                    chapter.title);
+        if(partId === 0 || part.number === partId){
+            let newPart = new Part(
+                part.number,
+                part.title
+            );
+            data_chapter.forEach(chapter => {
+                if (chapter.part === part.number) {
+                    let newChapter = new Chapter(
+                        chapter.number,
+                        chapter.title);
 
 
-                data_pdfs.forEach(pdf => {
-                    if (pdf.chapter === chapter.number) {
-                        let newPdf = new Pdf(
-                            pdf.id,
-                            pdf.title,
-                            pdf.location,
-                            pdf.download
-                        );
+                    data_pdfs.forEach(pdf => {
+                        if (pdf.chapter === chapter.number) {
+                            let newPdf = new Pdf(
+                                pdf.id,
+                                pdf.title,
+                                pdf.location,
+                                pdf.download
+                            );
 
-                        newChapter.addPdf(newPdf);
+                            newChapter.addPdf(newPdf);
+                    }
+                    });
+                    data_videos.forEach(video => {
+                        if (video.chapter === chapter.number) {
+
+                            let newVideo = new Video(
+                                video.id,
+                                video.title,
+                                video.location,
+                            );
+
+                            newChapter.addVideo(newVideo);
+                        }
+                    });
+                    data_ppts.forEach(ppt => {
+                        if (ppt.part === chapter.number) {
+
+                            let newPpt = new Ppt(
+                                ppt.id,
+                                ppt.title,
+                                ppt.location,
+                                ppt.download
+                            );
+
+                            newChapter.addPpt(newPpt);
+                        }
+                    });
+
+
+                    newPart.addChapter(newChapter);
                 }
-                });
-                data_videos.forEach(video => {
-                    if (video.chapter === chapter.number) {
-
-                        let newVideo = new Video(
-                            video.id,
-                            video.title,
-                            video.location,
-                        );
-
-                        newChapter.addVideo(newVideo);
-                    }
-                });
-                data_ppts.forEach(ppt => {
-                    if (ppt.part === chapter.number) {
-
-                        let newPpt = new Ppt(
-                            ppt.id,
-                            ppt.title,
-                            ppt.location,
-                            ppt.download
-                        );
-
-                        newChapter.addPpt(newPpt);
-                    }
-                });
-
-
-                newPart.addChapter(newChapter);
-            }
-        });
-        ofparts.push(newPart);
+            });
+            ofparts.push(newPart);
+        }
     });
     console.log(ofparts);
     parts= ofparts;
