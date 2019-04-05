@@ -3,7 +3,7 @@ include_once('../head.php');
 ?>
 <main class="container">
     <h2>Presentations</h2>
-    <p>tba</p>
+    <p>No presentations to display</p>
 </main>
 <?php
 include_once('../tail.php');
