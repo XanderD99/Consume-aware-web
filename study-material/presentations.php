@@ -6,16 +6,13 @@ include "../head.php";
     <h1>Presentations</h1>
 
     <a href="/assets/pdf/Presentations/Chapter_1_-_Understanding_Consumer_Behavior.pptx" 
-    download="Chapter_1_-_Understanding_Consumer_Behavior.pptx">Chapter 1 - Understanding consumer behavior</a>
+    download="Chapter_1_-_Understanding_Consumer_Behavior.pptx">Presentation</a>
+    <!-- One link voor all presentations -->
     
-    <a href="/assets/pdf/Presentations/Chapter_1_-_Understanding_Consumer_Behavior.pptx" 
-    download="Chapter_1_-_Understanding_Consumer_Behavior.pptx">Chapter 1 - Understanding consumer behavior</a>
-    
-    <a href="/assets/pdf/Presentations/Chapter_1_-_Understanding_Consumer_Behavior.pptx" 
-    download="Chapter_1_-_Understanding_Consumer_Behavior.pptx">Chapter 1 - Understanding consumer behavior</a>
-
+  
 </div>
 <div class="row center-align">
+
     <a href="student.php"><button id="back-btn" class="waves-effect waves-teal cyan btn-large logout-btn">Go back</button></a>
 </div>
 </main>
