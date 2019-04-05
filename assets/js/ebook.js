@@ -5,11 +5,11 @@ document.addEventListener('DOMContentLoaded', init);
 let parts = [];
 
 function init(){
-
-    generateParts();
+    console.log(getPartAttribute());
+    generateParts(getPartAttribute());
     generateAside();
     setFileClickListeners();
-
+    displayFile(1,1,1)
     //PDFObject.embed("assets/pdf/opgave.pdf","#pdfviewer");
 }
 
@@ -24,17 +24,18 @@ function selectFile() {
     let partId = parseInt(this.getAttribute("data-part"));
     let chapterId = parseInt(this.getAttribute("data-chapter"));
     let fileId = parseInt(this.getAttribute("data-file"));
+    displayFile(partId, chapterId, fileId);
 
+
+}
+
+function displayFile(partId, chapterId, fileId) {
     let part = parts.filter(part => part.getId() === partId)[0];
-    console.log(part);
     let chapter = part.getChapter(chapterId);
-    console.log(chapter);
     let file = chapter.getFile(fileId);
-    console.log(file);
     let displayed = part.getChapter(chapterId).getFile(fileId);
 
     displayed.display();
-
 }
 
 function setProgressBar(chapter) {
@@ -74,7 +75,7 @@ function getPartAttribute() {
         return parseInt(value);
 
     }
-    return null;
+    return 0;
 }
 
 
