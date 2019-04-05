@@ -1,5 +1,5 @@
 <?php
-include_once "../head.php";
+
 include_once "../Cookie.php";
 include_once "../Encrypter.php";
 
@@ -10,8 +10,9 @@ if (isset($_COOKIE["token"])) {
         exit();
     }
 }
-?>
 
+include_once "../head.php";
+?>
 <main class="container">
 
 <div class="row">
