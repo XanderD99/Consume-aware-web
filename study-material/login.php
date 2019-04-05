@@ -1,6 +1,5 @@
 <?php
 include "../utils.php";
-
 include_once "../Encrypter.php";
 
 if(!isset($_POST['password'])){
