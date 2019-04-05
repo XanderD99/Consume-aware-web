@@ -146,7 +146,7 @@ let data_ppts = [
         id: 14,
         chapter: 3,
         part: 1,
-        title: "Titel 1",
+        title: "Customer awareness importance",
         location: "assets/pdf/PPT_PRT1_CHPTR3.pdf",
         download: "assets/pdf/PPT_PRT1_CHPTR3.pptx"
     },
@@ -173,7 +173,7 @@ let data_ppts = [
         id: 17,
         chapter: 6,
         part: 2,
-        title: "Titel 1",
+        title: "Consumer awareness relevance and strategies",
         location: "assets/pdf/PPT_PRT2_CHPTR6.pdf",
         download: "assets/pdf/PPT_PRT2_CHPTR6.pptx"
     },
@@ -182,7 +182,7 @@ let data_ppts = [
         id: 18,
         chapter: 7,
         part: 3,
-        title: "Titel 1",
+        title: "Consumer policy on European market",
         location: "assets/pdf/PPT_PRT3_CHPTR7.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR7.pptx"
     },
@@ -200,7 +200,7 @@ let data_ppts = [
         id: 20,
         chapter: 9,
         part: 3,
-        title: "Titel 1",
+        title: "Customer rights understanding",
         location: "assets/pdf/PPT_PRT3_CHPTR9.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR9.pptx"
     },
@@ -218,7 +218,7 @@ let data_ppts = [
         id: 22,
         chapter: 11,
         part: 3,
-        title: "Titel 1",
+        title: "Building consumer awareness",
         location: "assets/pdf/PPT_PRT3_CHPTR11.pdf",
         download: "assets/pdf/PPT_PRT3_CHPTR11.pptx"
     }
@@ -237,14 +237,14 @@ let data_videos = [
         chapter: 2,
         part: 1,
         title: "The importance of studying consumer behavior",
-        location: "https://www.youtube.com/embed/e7S8jWh6AEs"
+        location: "https://www.youtube.com/embed/v1q1nnPCcKw"
     },
     {
         id: 25,
         chapter: 3,
         part: 1,
         title: "Consumer protection - why it matters to you",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/__2LZvEc-5E"
     },
 
     {
@@ -252,28 +252,28 @@ let data_videos = [
         chapter: 4,
         part: 2,
         title: "About the world's most ethical companies",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "N.A."
     },
     {
         id: 27,
         chapter: 5,
         part: 2,
         title: "Huggy met votre famille sur écoute",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/wk9WxIbJ3Dg"
     },
     {
         id: 28,
         chapter: 5,
         part: 2,
         title: "Huggybug your family today': don't play around with children's online safety",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/C_W-VkQ4oSk"
     },
     {
         id: 29,
         chapter: 5,
         part: 2,
         title: "Safety and welfare for the food chain",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "N.A."
     },
 
     {
@@ -281,7 +281,7 @@ let data_videos = [
         chapter: 7,
         part: 3,
         title: "Consumer rights: EU presentation",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/PQnM-k4k0Z8"
     },
 
     {
@@ -289,14 +289,14 @@ let data_videos = [
         chapter: 7,
         part: 3,
         title: "Question on your rights in Europe, complaint against a European trader: contact the ECC network",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/wmFL_4dDfuc"
     },
 
     { id: 32,
         chapter: 7,
         part: 3,
         title: "Consumer rights",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/UlU6Xlz9DD0"
     },
 
     {
@@ -327,7 +327,7 @@ let data_videos = [
         chapter: 12,
         part: 3,
         title: "The 11 UN consumer protection guidelines",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/qwQwev8Zpcw"
     },
 
     {
