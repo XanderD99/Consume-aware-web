@@ -252,7 +252,7 @@ let data_videos = [
         chapter: 4,
         part: 2,
         title: "About the world's most ethical companies",
-        location: "N.A."
+        location: "https://www.youtube.com/embed/w-yewtQY1wA"
     },
     {
         id: 27,
@@ -273,7 +273,7 @@ let data_videos = [
         chapter: 5,
         part: 2,
         title: "Safety and welfare for the food chain",
-        location: "N.A."
+        location: "https://www.youtube.com/embed/Ok-UyG9fI6s"
     },
 
     {
