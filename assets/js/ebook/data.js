@@ -237,7 +237,7 @@ let data_videos = [
         chapter: 2,
         part: 1,
         title: "The importance of studying consumer behavior",
-        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+        location: "https://www.youtube.com/embed/e7S8jWh6AEs"
     },
     {
         id: 25,
@@ -246,6 +246,7 @@ let data_videos = [
         title: "Consumer protection - why it matters to you",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
+
     {
         id: 26,
         chapter: 4,
@@ -282,6 +283,7 @@ let data_videos = [
         title: "Consumer rights: EU presentation",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
+
     {
         id: 31,
         chapter: 7,
@@ -289,15 +291,30 @@ let data_videos = [
         title: "Question on your rights in Europe, complaint against a European trader: contact the ECC network",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
-    { id: 32, chapter: 7, part: 3, title: "Consumer rights", location: "https://www.youtube.com/embed/mvuPvAmNItQ"},
+
+    { id: 32,
+        chapter: 7,
+        part: 3,
+        title: "Consumer rights",
+        location: "https://www.youtube.com/embed/mvuPvAmNItQ"
+    },
+
     {
         id: 33,
-        chapter: 7,
+        chapter: 0,
         part: 3,
         title: "Online dispute resolution: fast, fair & convenient",
         location: "https://www.youtube.com/embed/mvuPvAmNItQ"
     },
-    {id: 34, chapter: 10, part: 3, title: "EU trade policy explained", location: "https://www.youtube.com/embed/IiOC5XG2I5Y"},
+
+    {
+        id: 34,
+        chapter: 10,
+        part: 3,
+        title: "EU trade policy explained",
+        location: "https://www.youtube.com/embed/IiOC5XG2I5Y"
+    },
+
     {
         id: 35,
         chapter: 11,
