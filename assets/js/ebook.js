@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', init);
 let parts = [];
 
 function init(){
-
-    generateParts();
+    console.log(getPartAttribute());
+    generateParts(getPartAttribute());
     generateAside();
     setFileClickListeners();
 
