@@ -7,7 +7,7 @@ include_once "../head.php";
 <div id="studentSub" class="center-align">
     <div class="row">
       <a href="how-to.php"><button id="howTo" class="waves-effect waves-teal cyan btn-large study-button">Instructions</button></a>
-      <a href="project-presentation.php"><button id="bookStudent" class="waves-effect waves-teal btn-large study-button">Text book</button></a>
+      <a href="textbook.php"><button id="bookStudent" class="waves-effect waves-teal btn-large study-button">Text book</button></a>
       <a href="app.php"><button id="appStudent" class="waves-effect waves-teal btn-large study-button">App</button></a>
     </div>
     <div class="row">
